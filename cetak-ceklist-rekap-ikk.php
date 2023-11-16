@@ -135,7 +135,7 @@ $dayListk = array(
 		<?php
 		}}
 		?>
-		</table> 
+		</table>  
  
 <script>
 window.print() 
