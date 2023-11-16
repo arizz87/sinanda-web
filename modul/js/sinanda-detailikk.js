@@ -44,7 +44,7 @@ check_session()
 				}, 500);
 				}
 		}); 
-} 
+}  
 
 	
 function cekall3( id_bidang )

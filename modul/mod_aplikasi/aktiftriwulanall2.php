@@ -11,5 +11,5 @@ require_once'../../koneksi.php';
 		$SQL = mysqli_query($con, "update tb_ikk_bidang set tri2='1' where id_bidang='".$id."' and tahun='".$_SESSION['tahun']."'");
 	   }else{
 		$SQL = mysqli_query($con, "update tb_ikk_bidang set tri2='0' where id_bidang='".$id."' and tahun='".$_SESSION['tahun']."'");
-	   }
+	   } 
 ?>

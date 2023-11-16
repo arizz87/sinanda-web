@@ -12,4 +12,4 @@ require_once'../../koneksi.php';
 	   }else{
 		$SQL = mysqli_query($con, "update tb_ikk_bidang set tri4='0' where id_bidang='".$id."' and tahun='".$_SESSION['tahun']."'");
 	   }
-?>
+?>  

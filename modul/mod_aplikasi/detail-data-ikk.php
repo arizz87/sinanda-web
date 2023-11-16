@@ -39,7 +39,7 @@ $btncekall1= '<button type="button" title="Posting/ Unposting All" onClick="ceka
 $btncekall2= '<button type="button" title="Posting/ Unposting All" onClick="cekall2(\''.$caribidang['id_bidang'].'\')" class="btn btn-default btn-xs">Post/ Unpost All</button></a>';
 $btncekall3= '<button type="button" title="Posting/ Unposting All" onClick="cekall3(\''.$caribidang['id_bidang'].'\')" class="btn btn-default btn-xs">Post/ Unpost All</button></a>';
 $btncekall4= '<button type="button" title="Posting/ Unposting All" onClick="cekall4(\''.$caribidang['id_bidang'].'\')" class="btn btn-default btn-xs">Post/ Unpost All</button></a>';
-		
+ 		
 ?>  
 	<div class="row alert alert-danger"> 
 	<font style="font-size:16	px" class="box-title"></a><i class="fa fa-university"></i><b> <?php echo $caribidang['nama_bidang'] ?></b></font>
