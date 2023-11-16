@@ -1,0 +1,1333 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Aplikasi SIMBA</title>
+<link rel="shortcut icon" href="images/brebes2.png" />
+</head>
+<body>
+	 
+	<table cellspacing="0"  cellpadding="1" border="0"  width="100%">
+	  <tr style="font-size:14px; font-family:Arial, Helvetica, sans-serif">
+        <td align="center" valign="top" colspan=10> <b>LAPORAN REALISASI KEUANGAN <br> TAHUN ANGGARAN 2023 
+		<br> Per <font style="text-transform:uppercase;">Januari</font>	 </td> 
+	</tr> 
+	</table>   
+	<br> 
+		 	
+		 <table cellspacing="0"  cellpadding="0" border="1" width="100%">   
+								<tr  bgcolor=#DCDCDC style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center style=padding:4px 5px; rowspan=2><b>No</td>
+									<td align=center style=padding:4px 5px; rowspan=2><b>Kode Kegiatan</td> 
+									<td align=center style=padding:4px 5px; rowspan=2><b>Kegiatan</td> 
+									<td align=center style=padding:4px 5px; rowspan=2><b>Kode Sub Kegiatan</td> 
+									<td align=center style=padding:4px 5px; rowspan=2><b>Sub Kegiatan</td>
+									<td align=center style=padding:4px 5px; rowspan=2><b>Total Anggaran</td>
+									<td align=center style=padding:4px 5px; colspan=4><b>Angka Realisasi</td>  
+                                </tr> 
+								<tr  bgcolor=#DCDCDC style="font-size:12px; font-family:Arial, Helvetica, sans-serif">  
+									<td align=center style=padding:4px 5px;><b>Realisasi Fisik</td>
+									<td align=center style=padding:4px 5px;><b>% Fisik</td> 
+									<td align=center style=padding:4px 5px;><b>Realisasi Keuangan</td>
+									<td align=center style=padding:4px 5px;><b>% Keuangan</td>
+                                </tr>  								
+								
+												<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>1</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.01</td>
+									<td align=left valign=top style=padding:4px 5px;>Perencanaan, Penganggaran, dan Evaluasi Kinerja Perangkat Daerah</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.01.01</td>   
+									<td align=left valign=top style=padding:4px 5px;>Penyusunan Dokumen Perencanaan Perangkat Daerah</td> 
+									<td align=right valign=top style=padding:4px 5px;>30.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>2</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.01</td>
+									<td align=left valign=top style=padding:4px 5px;>Perencanaan, Penganggaran, dan Evaluasi Kinerja Perangkat Daerah</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.01.02</td>   
+									<td align=left valign=top style=padding:4px 5px;>Koordinasi dan Penyusunan Dokumen RKA- SKPD</td> 
+									<td align=right valign=top style=padding:4px 5px;>10.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>3</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.01</td>
+									<td align=left valign=top style=padding:4px 5px;>Perencanaan, Penganggaran, dan Evaluasi Kinerja Perangkat Daerah</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.01.03</td>   
+									<td align=left valign=top style=padding:4px 5px;>Koordinasi dan Penyusunan Dokumen Perubahan RKA-SKPD</td> 
+									<td align=right valign=top style=padding:4px 5px;>10.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>4</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.01</td>
+									<td align=left valign=top style=padding:4px 5px;>Perencanaan, Penganggaran, dan Evaluasi Kinerja Perangkat Daerah</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.01.04</td>   
+									<td align=left valign=top style=padding:4px 5px;>Koordinasi dan Penyusunan DPA-SKPD</td> 
+									<td align=right valign=top style=padding:4px 5px;>15.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>5</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.01</td>
+									<td align=left valign=top style=padding:4px 5px;>Perencanaan, Penganggaran, dan Evaluasi Kinerja Perangkat Daerah</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.01.05</td>   
+									<td align=left valign=top style=padding:4px 5px;>Koordinasi dan Penyusunan Perubahan DPA- SKPD</td> 
+									<td align=right valign=top style=padding:4px 5px;>15.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>6</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.01</td>
+									<td align=left valign=top style=padding:4px 5px;>Perencanaan, Penganggaran, dan Evaluasi Kinerja Perangkat Daerah</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.01.06</td>   
+									<td align=left valign=top style=padding:4px 5px;>Koordinasi dan Penyusunan Laporan Capaian Kinerja dan Ikhtisar Realisasi Kinerja SKPD</td> 
+									<td align=right valign=top style=padding:4px 5px;>1.185.103.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>7</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.01</td>
+									<td align=left valign=top style=padding:4px 5px;>Perencanaan, Penganggaran, dan Evaluasi Kinerja Perangkat Daerah</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.01.07</td>   
+									<td align=left valign=top style=padding:4px 5px;>Evaluasi Kinerja Perangkat Daerah</td> 
+									<td align=right valign=top style=padding:4px 5px;>120.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>8</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.02</td>
+									<td align=left valign=top style=padding:4px 5px;>Administrasi Keuangan Perangkat Daerah</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.02.01</td>   
+									<td align=left valign=top style=padding:4px 5px;>Penyediaan Gaji dan Tunjangan ASN</td> 
+									<td align=right valign=top style=padding:4px 5px;>720.902.303.145</td> 
+									<td align=right valign=top style=padding:4px 5px;>69.164.277.294</td> 
+									<td align=right valign=top style=padding:4px 5px;>9.59%</td> 
+									<td align=right valign=top style=padding:4px 5px;>69.164.277.294</td> 
+									<td align=right valign=top style=padding:4px 5px;>9.59%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>9</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.02</td>
+									<td align=left valign=top style=padding:4px 5px;>Administrasi Keuangan Perangkat Daerah</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.02.03</td>   
+									<td align=left valign=top style=padding:4px 5px;>Pelaksanaan Penatausahaan dan Pengujian/Verifikasi Keuangan SKPD</td> 
+									<td align=right valign=top style=padding:4px 5px;>19.956.855</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>10</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.02</td>
+									<td align=left valign=top style=padding:4px 5px;>Administrasi Keuangan Perangkat Daerah</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.02.05</td>   
+									<td align=left valign=top style=padding:4px 5px;>Koordinasi dan Penyusunan Laporan Keuangan Akhir Tahun SKPD</td> 
+									<td align=right valign=top style=padding:4px 5px;>15.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>11</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.02</td>
+									<td align=left valign=top style=padding:4px 5px;>Administrasi Keuangan Perangkat Daerah</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.02.07</td>   
+									<td align=left valign=top style=padding:4px 5px;>Koordinasi dan Penyusunan Laporan Keuangan Bulanan/ Triwulanan/ Semesteran SKPD</td> 
+									<td align=right valign=top style=padding:4px 5px;>10.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>12</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.03</td>
+									<td align=left valign=top style=padding:4px 5px;>Administrasi Barang Milik Daerah pada Perangkat Daerah</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.03.03</td>   
+									<td align=left valign=top style=padding:4px 5px;>Koordinasi dan Penilaian Barang Milik Daerah SKPD</td> 
+									<td align=right valign=top style=padding:4px 5px;>180.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>13</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.03</td>
+									<td align=left valign=top style=padding:4px 5px;>Administrasi Barang Milik Daerah pada Perangkat Daerah</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.03.04</td>   
+									<td align=left valign=top style=padding:4px 5px;>Pembinaan, Pengawasan, dan Pengendalian Barang Milik Daerah pada SKPD</td> 
+									<td align=right valign=top style=padding:4px 5px;>260.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>14</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.03</td>
+									<td align=left valign=top style=padding:4px 5px;>Administrasi Barang Milik Daerah pada Perangkat Daerah</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.03.05</td>   
+									<td align=left valign=top style=padding:4px 5px;>Rekonsiliasi dan Penyusunan Laporan Barang Milik Daerah pada SKPD</td> 
+									<td align=right valign=top style=padding:4px 5px;>193.600.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>15</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.03</td>
+									<td align=left valign=top style=padding:4px 5px;>Administrasi Barang Milik Daerah pada Perangkat Daerah</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.03.06</td>   
+									<td align=left valign=top style=padding:4px 5px;>Penatausahaan Barang Milik Daerah pada SKPD</td> 
+									<td align=right valign=top style=padding:4px 5px;>126.400.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>16</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.05</td>
+									<td align=left valign=top style=padding:4px 5px;>Administrasi Kepegawaian Perangkat Daerah</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.05.09</td>   
+									<td align=left valign=top style=padding:4px 5px;>Pendidikan dan Pelatihan Pegawai Berdasarkan Tugas dan Fungsi</td> 
+									<td align=right valign=top style=padding:4px 5px;>360.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>17</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.06</td>
+									<td align=left valign=top style=padding:4px 5px;>Administrasi Umum Perangkat Daerah</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.06.01</td>   
+									<td align=left valign=top style=padding:4px 5px;>Penyediaan Komponen Instalasi Listrik/Penerangan Bangunan Kantor</td> 
+									<td align=right valign=top style=padding:4px 5px;>150.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>18</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.06</td>
+									<td align=left valign=top style=padding:4px 5px;>Administrasi Umum Perangkat Daerah</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.06.02</td>   
+									<td align=left valign=top style=padding:4px 5px;>Penyediaan Peralatan dan Perlengkapan Kantor</td> 
+									<td align=right valign=top style=padding:4px 5px;>151.960.200</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>19</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.06</td>
+									<td align=left valign=top style=padding:4px 5px;>Administrasi Umum Perangkat Daerah</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.06.03</td>   
+									<td align=left valign=top style=padding:4px 5px;>Penyediaan Peralatan Rumah Tangga</td> 
+									<td align=right valign=top style=padding:4px 5px;>100.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>20</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.06</td>
+									<td align=left valign=top style=padding:4px 5px;>Administrasi Umum Perangkat Daerah</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.06.04</td>   
+									<td align=left valign=top style=padding:4px 5px;>Penyediaan Bahan Logistik Kantor</td> 
+									<td align=right valign=top style=padding:4px 5px;>250.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>21</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.06</td>
+									<td align=left valign=top style=padding:4px 5px;>Administrasi Umum Perangkat Daerah</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.06.05</td>   
+									<td align=left valign=top style=padding:4px 5px;>Penyediaan Barang Cetakan dan Penggandaan</td> 
+									<td align=right valign=top style=padding:4px 5px;>325.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>22</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.06</td>
+									<td align=left valign=top style=padding:4px 5px;>Administrasi Umum Perangkat Daerah</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.06.06</td>   
+									<td align=left valign=top style=padding:4px 5px;>Penyediaan Bahan Bacaan dan Peraturan Perundang-undangan</td> 
+									<td align=right valign=top style=padding:4px 5px;>150.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>23</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.06</td>
+									<td align=left valign=top style=padding:4px 5px;>Administrasi Umum Perangkat Daerah</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.06.08</td>   
+									<td align=left valign=top style=padding:4px 5px;>Fasilitasi Kunjungan Tamu</td> 
+									<td align=right valign=top style=padding:4px 5px;>50.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>24</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.06</td>
+									<td align=left valign=top style=padding:4px 5px;>Administrasi Umum Perangkat Daerah</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.06.09</td>   
+									<td align=left valign=top style=padding:4px 5px;>Penyelenggaraan Rapat Koordinasi dan Konsultasi SKPD</td> 
+									<td align=right valign=top style=padding:4px 5px;>500.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>25</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.06</td>
+									<td align=left valign=top style=padding:4px 5px;>Administrasi Umum Perangkat Daerah</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.06.10</td>   
+									<td align=left valign=top style=padding:4px 5px;>Penatausahaan Arsip Dinamis pada SKPD</td> 
+									<td align=right valign=top style=padding:4px 5px;>30.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>26</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.06</td>
+									<td align=left valign=top style=padding:4px 5px;>Administrasi Umum Perangkat Daerah</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.06.11</td>   
+									<td align=left valign=top style=padding:4px 5px;>Dukungan Pelaksanaan Sistem Pemerintahan Berbasis Elektronik pada SKPD</td> 
+									<td align=right valign=top style=padding:4px 5px;>75.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>27</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.08</td>
+									<td align=left valign=top style=padding:4px 5px;>Penyediaan Jasa Penunjang Urusan Pemerintahan Daerah</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.08.01</td>   
+									<td align=left valign=top style=padding:4px 5px;>Penyediaan Jasa Surat Menyurat</td> 
+									<td align=right valign=top style=padding:4px 5px;>50.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>28</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.08</td>
+									<td align=left valign=top style=padding:4px 5px;>Penyediaan Jasa Penunjang Urusan Pemerintahan Daerah</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.08.02</td>   
+									<td align=left valign=top style=padding:4px 5px;>Penyediaan Jasa Komunikasi, Sumber Daya Air dan Listrik</td> 
+									<td align=right valign=top style=padding:4px 5px;>700.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>31.918.214</td> 
+									<td align=right valign=top style=padding:4px 5px;>4.56%</td> 
+									<td align=right valign=top style=padding:4px 5px;>31.918.214</td> 
+									<td align=right valign=top style=padding:4px 5px;>4.56%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>29</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.08</td>
+									<td align=left valign=top style=padding:4px 5px;>Penyediaan Jasa Penunjang Urusan Pemerintahan Daerah</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.08.04</td>   
+									<td align=left valign=top style=padding:4px 5px;>Penyediaan Jasa Pelayanan Umum Kantor</td> 
+									<td align=right valign=top style=padding:4px 5px;>1.310.020.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>30</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.09</td>
+									<td align=left valign=top style=padding:4px 5px;>Pemeliharaan Barang Milik Daerah Penunjang Urusan Pemerintahan Daerah</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.09.01</td>   
+									<td align=left valign=top style=padding:4px 5px;>Penyediaan Jasa Pemeliharaan, Biaya Pemeliharaan, dan Pajak Kendaraan Perorangan Dinas atau Kendaraan Dinas Jabatan</td> 
+									<td align=right valign=top style=padding:4px 5px;>135.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>31</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.09</td>
+									<td align=left valign=top style=padding:4px 5px;>Pemeliharaan Barang Milik Daerah Penunjang Urusan Pemerintahan Daerah</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.09.06</td>   
+									<td align=left valign=top style=padding:4px 5px;>Pemeliharaan Peralatan dan Mesin Lainnya</td> 
+									<td align=right valign=top style=padding:4px 5px;>120.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>32</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.09</td>
+									<td align=left valign=top style=padding:4px 5px;>Pemeliharaan Barang Milik Daerah Penunjang Urusan Pemerintahan Daerah</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.01.2.09.09</td>   
+									<td align=left valign=top style=padding:4px 5px;>Pemeliharaan/Rehabilitasi Gedung Kantor dan Bangunan Lainnya</td> 
+									<td align=right valign=top style=padding:4px 5px;>450.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>33</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.01</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Dasar</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.01.02</td>   
+									<td align=left valign=top style=padding:4px 5px;>Penambahan Ruang Kelas Baru</td> 
+									<td align=right valign=top style=padding:4px 5px;>1.785.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>34</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.01</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Dasar</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.01.04</td>   
+									<td align=left valign=top style=padding:4px 5px;>Pembangunan Ruang Unit Kesehatan Sekolah</td> 
+									<td align=right valign=top style=padding:4px 5px;>1.078.240.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>35</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.01</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Dasar</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.01.05</td>   
+									<td align=left valign=top style=padding:4px 5px;>Pembangunan Perpustakaan Sekolah</td> 
+									<td align=right valign=top style=padding:4px 5px;>1.626.093.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>36</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.01</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Dasar</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.01.06</td>   
+									<td align=left valign=top style=padding:4px 5px;>Pembangunan Sarana, Prasarana dan Utilitas Sekolah</td> 
+									<td align=right valign=top style=padding:4px 5px;>2.603.377.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>37</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.01</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Dasar</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.01.08</td>   
+									<td align=left valign=top style=padding:4px 5px;>Rehabilitasi Sedang/Berat Ruang Kelas</td> 
+									<td align=right valign=top style=padding:4px 5px;>9.164.576.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>38</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.01</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Dasar</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.01.09</td>   
+									<td align=left valign=top style=padding:4px 5px;>Rehabilitasi Sedang/Berat Ruang Guru/Kepala Sekolah/TU</td> 
+									<td align=right valign=top style=padding:4px 5px;>1.137.034.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>39</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.01</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Dasar</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.01.10</td>   
+									<td align=left valign=top style=padding:4px 5px;>Rehabilitasi Sedang/Berat Ruang Unit Kesehatan Sekolah</td> 
+									<td align=right valign=top style=padding:4px 5px;>109.089.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>40</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.01</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Dasar</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.01.11</td>   
+									<td align=left valign=top style=padding:4px 5px;>Rehabilitasi Sedang/Berat Perpustakaan Sekolah</td> 
+									<td align=right valign=top style=padding:4px 5px;>865.256.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>41</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.01</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Dasar</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.01.12</td>   
+									<td align=left valign=top style=padding:4px 5px;>Rehabilitasi Sedang/Berat Sarana, Prasarana dan Utilitas Sekolah</td> 
+									<td align=right valign=top style=padding:4px 5px;>224.400.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>42</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.01</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Dasar</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.01.14</td>   
+									<td align=left valign=top style=padding:4px 5px;>Pengadaan Mebel Sekolah</td> 
+									<td align=right valign=top style=padding:4px 5px;>9.859.045.220</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>43</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.01</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Dasar</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.01.16</td>   
+									<td align=left valign=top style=padding:4px 5px;>Pengadaan Perlengkapan Sekolah</td> 
+									<td align=right valign=top style=padding:4px 5px;>625.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>44</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.01</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Dasar</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.01.17</td>   
+									<td align=left valign=top style=padding:4px 5px;>Pengadaan Perlengkapan Siswa</td> 
+									<td align=right valign=top style=padding:4px 5px;>135.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>45</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.01</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Dasar</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.01.21</td>   
+									<td align=left valign=top style=padding:4px 5px;>Penyediaan Biaya Personil Peserta Didik Sekolah Dasar</td> 
+									<td align=right valign=top style=padding:4px 5px;>228.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>46</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.01</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Dasar</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.01.22</td>   
+									<td align=left valign=top style=padding:4px 5px;>Pengadaan Alat Praktik dan Peraga Siswa</td> 
+									<td align=right valign=top style=padding:4px 5px;>2.250.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>47</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.01</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Dasar</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.01.23</td>   
+									<td align=left valign=top style=padding:4px 5px;>Penyelenggaraan Proses Belajar dan Ujian bagi Peserta Didik</td> 
+									<td align=right valign=top style=padding:4px 5px;>93.727.700</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>48</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.01</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Dasar</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.01.24</td>   
+									<td align=left valign=top style=padding:4px 5px;>Penyiapan dan Tindak Lanjut Evaluasi Satuan Pendidikan Dasar</td> 
+									<td align=right valign=top style=padding:4px 5px;>75.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>49</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.01</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Dasar</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.01.25</td>   
+									<td align=left valign=top style=padding:4px 5px;>Pembinaan Minat, Bakat dan Kreativitas Siswa</td> 
+									<td align=right valign=top style=padding:4px 5px;>250.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>50</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.01</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Dasar</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.01.26</td>   
+									<td align=left valign=top style=padding:4px 5px;>Penyediaan Pendidik dan Tenaga Kependidikan bagi Satuan Pendidikan Sekolah Dasar</td> 
+									<td align=right valign=top style=padding:4px 5px;>200.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>51</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.01</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Dasar</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.01.27</td>   
+									<td align=left valign=top style=padding:4px 5px;>Pengembangan Karir Pendidik dan Tenaga Kependidikan pada Satuan Pendidikan Sekolah Dasar</td> 
+									<td align=right valign=top style=padding:4px 5px;>340.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>52</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.01</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Dasar</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.01.28</td>   
+									<td align=left valign=top style=padding:4px 5px;>Pembinaan Kelembagaan dan Manajemen Sekolah</td> 
+									<td align=right valign=top style=padding:4px 5px;>1.328.460.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>53</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.01</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Dasar</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.01.29</td>   
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Dana BOS Sekolah Dasar</td> 
+									<td align=right valign=top style=padding:4px 5px;>139.386.250.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>54</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.01</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Dasar</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.01.30</td>   
+									<td align=left valign=top style=padding:4px 5px;>Peningkatan Kapasitas Pengelolaan Dana BOS Sekolah Dasar</td> 
+									<td align=right valign=top style=padding:4px 5px;>132.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>55</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.01</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Dasar</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.01.31</td>   
+									<td align=left valign=top style=padding:4px 5px;>Pembangunan Laboratorium Sekolah Dasar</td> 
+									<td align=right valign=top style=padding:4px 5px;>4.420.625.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>56</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Menengah Pertama</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02.02</td>   
+									<td align=left valign=top style=padding:4px 5px;>Penambahan Ruang Kelas Baru</td> 
+									<td align=right valign=top style=padding:4px 5px;>890.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>57</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Menengah Pertama</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02.04</td>   
+									<td align=left valign=top style=padding:4px 5px;>Pembangunan Ruang Unit Kesehatan Sekolah</td> 
+									<td align=right valign=top style=padding:4px 5px;>382.170.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>58</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Menengah Pertama</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02.06</td>   
+									<td align=left valign=top style=padding:4px 5px;>Pembangunan Laboratorium</td> 
+									<td align=right valign=top style=padding:4px 5px;>4.374.637.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>59</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Menengah Pertama</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02.12</td>   
+									<td align=left valign=top style=padding:4px 5px;>Pembangunan Sarana, Prasarana dan Utilitas Sekolah</td> 
+									<td align=right valign=top style=padding:4px 5px;>1.935.576.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>60</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Menengah Pertama</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02.14</td>   
+									<td align=left valign=top style=padding:4px 5px;>Rehabilitasi Sedang/Berat Ruang Kelas Sekolah</td> 
+									<td align=right valign=top style=padding:4px 5px;>5.884.780.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>61</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Menengah Pertama</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02.15</td>   
+									<td align=left valign=top style=padding:4px 5px;>Rehabilitasi Sedang/Berat Ruang Guru Sekolah</td> 
+									<td align=right valign=top style=padding:4px 5px;>446.724.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>62</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Menengah Pertama</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02.16</td>   
+									<td align=left valign=top style=padding:4px 5px;>Rehabilitasi Sedang/Berat Ruang Unit Kesehatan Sekolah</td> 
+									<td align=right valign=top style=padding:4px 5px;>72.726.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>63</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Menengah Pertama</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02.17</td>   
+									<td align=left valign=top style=padding:4px 5px;>Rehabilitasi Sedang/Berat Perpustakaan Sekolah</td> 
+									<td align=right valign=top style=padding:4px 5px;>243.064.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>64</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Menengah Pertama</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02.18</td>   
+									<td align=left valign=top style=padding:4px 5px;>Rehabilitasi Sedang/Berat Laboratorium</td> 
+									<td align=right valign=top style=padding:4px 5px;>369.116.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>65</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Menengah Pertama</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02.24</td>   
+									<td align=left valign=top style=padding:4px 5px;>Rehabilitasi Sedang/Berat Sarana, Prasarana dan Utilitas Sekolah</td> 
+									<td align=right valign=top style=padding:4px 5px;>548.424.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>66</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Menengah Pertama</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02.25</td>   
+									<td align=left valign=top style=padding:4px 5px;>Pengadaan Mebel Sekolah</td> 
+									<td align=right valign=top style=padding:4px 5px;>9.684.850.880</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>67</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Menengah Pertama</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02.28</td>   
+									<td align=left valign=top style=padding:4px 5px;>Pengadaan Perlengkapan Siswa</td> 
+									<td align=right valign=top style=padding:4px 5px;>75.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>68</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Menengah Pertama</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02.32</td>   
+									<td align=left valign=top style=padding:4px 5px;>Penyediaan Biaya Personil Peserta Didik Sekolah Menengah Pertama</td> 
+									<td align=right valign=top style=padding:4px 5px;>1.272.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>69</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Menengah Pertama</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02.35</td>   
+									<td align=left valign=top style=padding:4px 5px;>Pengadaan Alat Praktik dan Peraga Siswa</td> 
+									<td align=right valign=top style=padding:4px 5px;>470.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>70</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Menengah Pertama</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02.36</td>   
+									<td align=left valign=top style=padding:4px 5px;>Penyelenggaraan Proses Belajar dan Ujian bagi Peserta Didik</td> 
+									<td align=right valign=top style=padding:4px 5px;>435.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>71</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Menengah Pertama</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02.37</td>   
+									<td align=left valign=top style=padding:4px 5px;>Penyiapan dan Tindak Lanjut Evaluasi Satuan Pendidikan Sekolah Menengah Pertama</td> 
+									<td align=right valign=top style=padding:4px 5px;>123.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>72</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Menengah Pertama</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02.38</td>   
+									<td align=left valign=top style=padding:4px 5px;>Pembinaan Minat, Bakat dan Kreativitas Siswa</td> 
+									<td align=right valign=top style=padding:4px 5px;>239.194.500</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>73</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Menengah Pertama</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02.39</td>   
+									<td align=left valign=top style=padding:4px 5px;>Penyediaan Pendidik dan Tenaga Kependidikan bagi Satuan Pendidikan Sekolah Menengah Pertama</td> 
+									<td align=right valign=top style=padding:4px 5px;>170.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>74</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Menengah Pertama</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02.40</td>   
+									<td align=left valign=top style=padding:4px 5px;>Pengembangan Karir Pendidik dan Tenaga Kependidikan pada Satuan Pendidikan Sekolah Menengah Pertama</td> 
+									<td align=right valign=top style=padding:4px 5px;>110.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>75</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Menengah Pertama</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02.41</td>   
+									<td align=left valign=top style=padding:4px 5px;>Pembinaan Kelembagaan dan Manajemen Sekolah</td> 
+									<td align=right valign=top style=padding:4px 5px;>966.295.300</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>76</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Menengah Pertama</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02.42</td>   
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Dana BOS Sekolah Menengah Pertama</td> 
+									<td align=right valign=top style=padding:4px 5px;>66.269.280.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>77</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Menengah Pertama</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02.43</td>   
+									<td align=left valign=top style=padding:4px 5px;>Peningkatan Kapasitas Pengelolaan Dana BOS Sekolah Menengah Pertama</td> 
+									<td align=right valign=top style=padding:4px 5px;>55.422.400</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>78</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Menengah Pertama</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02.44</td>   
+									<td align=left valign=top style=padding:4px 5px;>Rehabilitasi Sedang/Berat Ruang TU</td> 
+									<td align=right valign=top style=padding:4px 5px;>220.582.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>79</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Menengah Pertama</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02.45</td>   
+									<td align=left valign=top style=padding:4px 5px;>Rehabilitasi Sedang/Berat Ruang Kepala Sekolah</td> 
+									<td align=right valign=top style=padding:4px 5px;>73.362.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>80</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.03</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Anak Usia Dini (PAUD)</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.03.01</td>   
+									<td align=left valign=top style=padding:4px 5px;>Pembangunan Gedung/Ruang Kelas/Ruang Guru PAUD</td> 
+									<td align=right valign=top style=padding:4px 5px;>1.277.874.350</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>81</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.03</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Anak Usia Dini (PAUD)</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.03.02</td>   
+									<td align=left valign=top style=padding:4px 5px;>Pembangunan Sarana, Prasarana dan Utilitas PAUD</td> 
+									<td align=right valign=top style=padding:4px 5px;>484.660.100</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>82</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.03</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Anak Usia Dini (PAUD)</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.03.03</td>   
+									<td align=left valign=top style=padding:4px 5px;>Rehabilitasi Sedang/Berat Gedung/Ruang Kelas/Ruang Guru PAUD</td> 
+									<td align=right valign=top style=padding:4px 5px;>1.110.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>83</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.03</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Anak Usia Dini (PAUD)</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.03.04</td>   
+									<td align=left valign=top style=padding:4px 5px;>Rehabilitasi Sedang/Berat Pembangunan Sarana, Prasarana dan Utilitas PAUD</td> 
+									<td align=right valign=top style=padding:4px 5px;>100.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>84</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.03</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Anak Usia Dini (PAUD)</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.03.07</td>   
+									<td align=left valign=top style=padding:4px 5px;>Pengadaan Mebel PAUD</td> 
+									<td align=right valign=top style=padding:4px 5px;>201.900.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>85</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.03</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Anak Usia Dini (PAUD)</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.03.12</td>   
+									<td align=left valign=top style=padding:4px 5px;>Pengadaan Alat Praktik dan Peraga Siswa PAUD</td> 
+									<td align=right valign=top style=padding:4px 5px;>710.300.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>86</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.03</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Anak Usia Dini (PAUD)</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.03.13</td>   
+									<td align=left valign=top style=padding:4px 5px;>Penyelenggaraan Proses Belajar PAUD</td> 
+									<td align=right valign=top style=padding:4px 5px;>173.090.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>87</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.03</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Anak Usia Dini (PAUD)</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.03.14</td>   
+									<td align=left valign=top style=padding:4px 5px;>Penyiapan dan Tindak Lanjut Evaluasi Satuan PAUD</td> 
+									<td align=right valign=top style=padding:4px 5px;>112.954.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>88</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.03</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Anak Usia Dini (PAUD)</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.03.16</td>   
+									<td align=left valign=top style=padding:4px 5px;>Pengembangan Karir Pendidik dan Tenaga Kependidikan pada Satuan Pendidikan PAUD</td> 
+									<td align=right valign=top style=padding:4px 5px;>249.030.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>89</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.03</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Anak Usia Dini (PAUD)</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.03.17</td>   
+									<td align=left valign=top style=padding:4px 5px;>Pembinaan Kelembagaan dan Manajemen PAUD</td> 
+									<td align=right valign=top style=padding:4px 5px;>251.322.850</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>90</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.03</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Anak Usia Dini (PAUD)</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.03.18</td>   
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Dana BOP PAUD</td> 
+									<td align=right valign=top style=padding:4px 5px;>25.240.060.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>91</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.03</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Anak Usia Dini (PAUD)</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.03.19</td>   
+									<td align=left valign=top style=padding:4px 5px;>Peningkatan Kapasitas Pengelolaan Dana BOP PAUD</td> 
+									<td align=right valign=top style=padding:4px 5px;>228.020.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>92</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.04</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Non Formal/Kesetaraan</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.04.01</td>   
+									<td align=left valign=top style=padding:4px 5px;>Pembangunan Gedung/Ruang Kelas/Ruang Guru Non Formal / Kesetaraan</td> 
+									<td align=right valign=top style=padding:4px 5px;>100.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>93</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.04</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Non Formal/Kesetaraan</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.04.02</td>   
+									<td align=left valign=top style=padding:4px 5px;>Pembangunan Sarana, Prasarana dan Utilitas Sekolah Non Formal/Kesetaraan</td> 
+									<td align=right valign=top style=padding:4px 5px;>125.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>94</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.04</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Non Formal/Kesetaraan</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.04.03</td>   
+									<td align=left valign=top style=padding:4px 5px;>Rehabilitasi Sedang/Berat Gedung/Ruang Kelas/Ruang Guru Pendidikan Non Formal / Kesetaraan</td> 
+									<td align=right valign=top style=padding:4px 5px;>125.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>95</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.04</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Non Formal/Kesetaraan</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.04.07</td>   
+									<td align=left valign=top style=padding:4px 5px;>Pengadaan Mebel Pendidikan Non Formal/Kesetaraan</td> 
+									<td align=right valign=top style=padding:4px 5px;>125.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>96</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.04</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Non Formal/Kesetaraan</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.04.10</td>   
+									<td align=left valign=top style=padding:4px 5px;>Penyediaan Biaya Personil Peserta Didik Non Formal/Kesetaraan</td> 
+									<td align=right valign=top style=padding:4px 5px;>500.500.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>97</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.04</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Non Formal/Kesetaraan</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.04.11</td>   
+									<td align=left valign=top style=padding:4px 5px;>Pengadaan Alat Praktik dan Peraga Siswa Non Formal / Kesetaraan</td> 
+									<td align=right valign=top style=padding:4px 5px;>175.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>98</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.04</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Non Formal/Kesetaraan</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.04.12</td>   
+									<td align=left valign=top style=padding:4px 5px;>Penyelenggaraan Proses Belajar Non Formal/Kesetaraan</td> 
+									<td align=right valign=top style=padding:4px 5px;>633.692.800</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>99</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.04</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Non Formal/Kesetaraan</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.04.16</td>   
+									<td align=left valign=top style=padding:4px 5px;>Pembinaan Kelembagaan dan Manajemen Sekolah Non Formal/Kesetaraan</td> 
+									<td align=right valign=top style=padding:4px 5px;>371.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>100</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.04</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Non Formal/Kesetaraan</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.04.17</td>   
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Dana BOP Sekolah Non Formal/Kesetaraan</td> 
+									<td align=right valign=top style=padding:4px 5px;>12.198.150.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>101</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.04</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Non Formal/Kesetaraan</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.04.22</td>   
+									<td align=left valign=top style=padding:4px 5px;>Penyelenggaraan Ujian bagi Peserta Didik Non Formal/Kesetaraan</td> 
+									<td align=right valign=top style=padding:4px 5px;>65.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>102</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.04.2.01</td>
+									<td align=left valign=top style=padding:4px 5px;>Pemerataan Kuantitas dan Kualitas Pendidik dan Tenaga Kependidikan bagi Satuan Pendidikan Dasar, PAUD, dan Pendidikan Non Formal/Kesetaraan</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.04.2.01.01</td>   
+									<td align=left valign=top style=padding:4px 5px;>Perhitungan dan Pemetaan Pendidik dan Tenaga Kependidikan Satuan Pendidikan Dasar, PAUD, dan Pendidikan Non Formal/Kesetaraan</td> 
+									<td align=right valign=top style=padding:4px 5px;>8.419.939.280</td> 
+									<td align=right valign=top style=padding:4px 5px;>2.271.360</td> 
+									<td align=right valign=top style=padding:4px 5px;>0.03%</td> 
+									<td align=right valign=top style=padding:4px 5px;>2.271.360</td> 
+									<td align=right valign=top style=padding:4px 5px;>0.03%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>103</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.04.2.01</td>
+									<td align=left valign=top style=padding:4px 5px;>Pemerataan Kuantitas dan Kualitas Pendidik dan Tenaga Kependidikan bagi Satuan Pendidikan Dasar, PAUD, dan Pendidikan Non Formal/Kesetaraan</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.04.2.01.02</td>   
+									<td align=left valign=top style=padding:4px 5px;>Penataan Pendistribusian Pendidik dan Tenaga Kependidikan bagi Satuan Pendidikan Dasar, PAUD, dan Pendidikan Non Formal/Kesetaraan</td> 
+									<td align=right valign=top style=padding:4px 5px;>163.060.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>104</td> 
+									<td align=left valign=top style=padding:4px 5px;>2.19.02.2.01</td>
+									<td align=left valign=top style=padding:4px 5px;>Penyadaran, Pemberdayaan, dan Pengembangan Pemuda dan Kepemudaan Terhadap Pemuda Pelopor Kabupaten/Kota, Wirausaha Muda Pemula, dan Pemuda Kader Kabupaten/Kota</td>
+									<td align=left valign=top style=padding:4px 5px;>2.19.02.2.01.02</td>   
+									<td align=left valign=top style=padding:4px 5px;>Koordinasi, Sinkronisasi dan Penyelenggaraan Peningkatan Kapasitas Daya Saing Wira Usaha Pemula</td> 
+									<td align=right valign=top style=padding:4px 5px;>250.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>105</td> 
+									<td align=left valign=top style=padding:4px 5px;>2.19.02.2.01</td>
+									<td align=left valign=top style=padding:4px 5px;>Penyadaran, Pemberdayaan, dan Pengembangan Pemuda dan Kepemudaan Terhadap Pemuda Pelopor Kabupaten/Kota, Wirausaha Muda Pemula, dan Pemuda Kader Kabupaten/Kota</td>
+									<td align=left valign=top style=padding:4px 5px;>2.19.02.2.01.08</td>   
+									<td align=left valign=top style=padding:4px 5px;>Peningkatan Kepemimpinan, Kepeloporan dan Kesukarelawanan Pemuda</td> 
+									<td align=right valign=top style=padding:4px 5px;>480.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>106</td> 
+									<td align=left valign=top style=padding:4px 5px;>2.19.02.2.01</td>
+									<td align=left valign=top style=padding:4px 5px;>Penyadaran, Pemberdayaan, dan Pengembangan Pemuda dan Kepemudaan Terhadap Pemuda Pelopor Kabupaten/Kota, Wirausaha Muda Pemula, dan Pemuda Kader Kabupaten/Kota</td>
+									<td align=left valign=top style=padding:4px 5px;>2.19.02.2.01.09</td>   
+									<td align=left valign=top style=padding:4px 5px;>Penyelenggaraan Seleksi dan Pelatihan Pasukan Pengibar Bendera</td> 
+									<td align=right valign=top style=padding:4px 5px;>650.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>107</td> 
+									<td align=left valign=top style=padding:4px 5px;>2.19.02.2.02</td>
+									<td align=left valign=top style=padding:4px 5px;>Pemberdayaan dan Pengembangan Organisasi Kepemudaan Tingkat Daerah Kabupaten/Kota</td>
+									<td align=left valign=top style=padding:4px 5px;>2.19.02.2.02.02</td>   
+									<td align=left valign=top style=padding:4px 5px;>Peningkatan Kapasitas Pemuda dan Organisasi Kepemudaan Kabupaten/Kota</td> 
+									<td align=right valign=top style=padding:4px 5px;>2.118.070.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>108</td> 
+									<td align=left valign=top style=padding:4px 5px;>2.19.03.2.01</td>
+									<td align=left valign=top style=padding:4px 5px;>Pembinaan dan Pengembangan Olahraga Pendidikan pada Jenjang Pendidikan yang Menjadi Kewenangan Daerah Kabupaten/Kota</td>
+									<td align=left valign=top style=padding:4px 5px;>2.19.03.2.01.03</td>   
+									<td align=left valign=top style=padding:4px 5px;>Koordinasi, Sinkronisasi dan Pelaksanaan Penyediaan Sarana dan Prasarana Olahraga Kabupaten/Kota</td> 
+									<td align=right valign=top style=padding:4px 5px;>5.312.224.880</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>109</td> 
+									<td align=left valign=top style=padding:4px 5px;>2.19.03.2.02</td>
+									<td align=left valign=top style=padding:4px 5px;>Penyelenggaraan Kejuaraan Olahraga Tingkat Daerah Kabupaten/Kota</td>
+									<td align=left valign=top style=padding:4px 5px;>2.19.03.2.02.02</td>   
+									<td align=left valign=top style=padding:4px 5px;>Penyelenggaraan Kejuaraan dan Pekan Olahraga Tingkat Kabupaten/Kota</td> 
+									<td align=right valign=top style=padding:4px 5px;>1.250.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>110</td> 
+									<td align=left valign=top style=padding:4px 5px;>2.19.03.2.02</td>
+									<td align=left valign=top style=padding:4px 5px;>Penyelenggaraan Kejuaraan Olahraga Tingkat Daerah Kabupaten/Kota</td>
+									<td align=left valign=top style=padding:4px 5px;>2.19.03.2.02.03</td>   
+									<td align=left valign=top style=padding:4px 5px;>Partisipasi dan Keikutsertaan dalam Penyelenggaraan Kejuaraan</td> 
+									<td align=right valign=top style=padding:4px 5px;>1.520.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>111</td> 
+									<td align=left valign=top style=padding:4px 5px;>2.19.03.2.05</td>
+									<td align=left valign=top style=padding:4px 5px;>Pembinaan dan Pengembangan Olahraga Rekreasi</td>
+									<td align=left valign=top style=padding:4px 5px;>2.19.03.2.05.01</td>   
+									<td align=left valign=top style=padding:4px 5px;>Penyelenggaraan, Pengembangan dan Pemasalan Festival dan Olahraga Rekreasi</td> 
+									<td align=right valign=top style=padding:4px 5px;>100.000.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>112</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Menengah Pertama</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02.03</td>   
+									<td align=left valign=top style=padding:4px 5px;>Pembangunan Ruang Guru/Kepala Sekolah/TU</td> 
+									<td align=right valign=top style=padding:4px 5px;>317.025.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+																		<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px;>113</td> 
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02</td>
+									<td align=left valign=top style=padding:4px 5px;>Pengelolaan Pendidikan Sekolah Menengah Pertama</td>
+									<td align=left valign=top style=padding:4px 5px;>1.01.02.2.02.05</td>   
+									<td align=left valign=top style=padding:4px 5px;>Pembangunan Perpustakaan Sekolah</td> 
+									<td align=right valign=top style=padding:4px 5px;>328.428.000</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 
+									<td align=right valign=top style=padding:4px 5px;>0</td> 
+									<td align=right valign=top style=padding:4px 5px;>0%</td> 									
+										
+								<tr style="font-size:12px; font-family:Arial, Helvetica, sans-serif">   
+									<td align=center valign=top style=padding:4px 5px; colspan=5><b>Total</td>  
+									<td align=right valign=top style=padding:4px 5px;><b>1.066.693.021.460</td> 
+									<td align=right valign=top style=padding:4px 5px;><b>69.198.466.868</td> 
+									<td align=right valign=top style=padding:4px 5px;><b>6.49% </td> 
+									<td align=right valign=top style=padding:4px 5px;><b>69.198.466.868</td> 
+									<td align=right valign=top style=padding:4px 5px;><b>6.49% </td> 			
+                                </tr>  
+            </table>
+	<br><br>		 
+	<table cellspacing="0"  cellpadding="1" border="0"  width="100%">
+	  <tr style="font-size:12px;font-family:Arial, Helvetica, sans-serif">
+        <td width="55%" align="right" valign="top" colspan=6> 
+	 </td>
+        <td width="45%" colspan=4>Brebes, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		 2023</td>
+	</tr> 		 
+    <tr style="font-size:12px;font-family:Arial, Helvetica, sans-serif">
+        <td width="55%" align="right" valign="top" colspan=6> 
+	 </td>
+        <td width="45%" colspan=4>Kepala Dinas Pendidikan Pemuda dan Olahraga <br>Kabupaten Brebes</td>
+	</tr> 
+	  <tr style="font-size:12px;font-family:Arial, Helvetica, sans-serif">
+        <td width="55%" align="right" valign="top" colspan=6> 
+	 </td>
+        <td width="45%" colspan=4>Selaku Pengguna Anggaran</td>
+	</tr> 	
+	
+	<tr style="font-size:12px;font-family:Arial, Helvetica, sans-serif">
+        <td width="55%" colspan=6></td>
+        <td width="45%"></td>
+	</tr>  
+	<tr style="font-size:12px;font-family:Arial, Helvetica, sans-serif">
+        <td width="55%" colspan=6></td>
+        <td width="45%"></td>
+	</tr>  
+	<tr style="font-size:12px;font-family:Arial, Helvetica, sans-serif">
+        <td width="55%" colspan=6></td>
+        <td width="45%"></td>
+	</tr>  
+	<tr style="font-size:12px;font-family:Arial, Helvetica, sans-serif">
+        <td width="55%" colspan=6></td>
+        <td width="45%" colspan=4><b>CARIDAH, M.PD.</b></td>
+	</tr>  
+	<tr style="font-size:12px;font-family:Arial, Helvetica, sans-serif">
+        <td width="55%" colspan=6></td>
+        <td width="45%" colspan=4>NIP. 197105101998032006</td>
+	</tr>   	
+    
+</table>
+</table>
+ 
+</body>
+</html>

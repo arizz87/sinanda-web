@@ -1,0 +1,24 @@
+RewriteEngine On
+RewriteCond $1 !^(index\.php)
+RewriteRule ^home mediax.php?modul=aplikasi&proses=home2 [L]	
+RewriteRule ^daftar-tahun-anggaran mediax.php?modul=aplikasi&proses=daftar-tahun-anggaran [L]	
+RewriteRule ^daftar-bidang mediax.php?modul=aplikasi&proses=daftar-bidang [L]
+RewriteRule ^daftar-indikator-ikk mediax.php?modul=aplikasi&proses=daftar-ikk-outcome [L]
+RewriteRule ^daftar-data-dukung mediax.php?modul=aplikasi&proses=daftar-data-dukung [L]
+RewriteRule ^daftar-user-pengguna mediax.php?modul=aplikasi&proses=daftar-user-pengguna [L]	 
+RewriteRule ^detail-data-ikk-bidang-([^/\.]+)/?$ mediax.php?modul=aplikasi&proses=daftar-set-bidang&aplikasi=detail-data&id=$1 [L] 
+RewriteRule ^detail-data-dukung-bidang-([^/\.]+)/?$ mediax.php?modul=aplikasi&proses=daftar-set-bidang&aplikasi=detail-data-dukung&id=$1 [L]		
+RewriteRule ^set-ikk-bidang  mediax.php?modul=aplikasi&proses=daftar-set-bidang&aplikasi=daftar-bidang [L] 	
+RewriteRule ^data-realisasi-kinerja  mediax.php?modul=aplikasi&proses=daftar-kinerja-bidang&aplikasi=daftar-realisasi-kinerja [L] 
+RewriteRule ^detail-realisasi-kinerja-bidang-([^/\.]+)/?$  mediay.php?modul=aplikasi&proses=detail-kinerja-bidang&aplikasi=daftar-realisasi-kinerja&id=$1 [L] 
+
+RewriteRule ^dashboard media.php?modul=aplikasi&proses=dashboard [L]
+RewriteRule ^data-triwulan1 media.php?modul=aplikasi&proses=detail-data-tri1 [L] 	
+RewriteRule ^data-triwulan2 media.php?modul=aplikasi&proses=detail-data-tri2 [L]
+RewriteRule ^data-triwulan3 media.php?modul=aplikasi&proses=detail-data-tri3 [L]	
+RewriteRule ^data-triwulan4 media.php?modul=aplikasi&proses=detail-data-tri4 [L]	
+RewriteRule ^update-pengguna media.php?modul=aplikasi&proses=update-pengguna [L]	 				
+
+Options All -Indexes
+
+

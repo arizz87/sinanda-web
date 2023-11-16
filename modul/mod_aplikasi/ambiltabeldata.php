@@ -1,0 +1,53 @@
+	<?php
+	require_once'../../koneksi.php';
+	require_once'../../fungsi.php';
+	?>
+	<style>
+	.scroll{
+		display:block;
+		border:1px solid #D3D3D3;
+		padding:5px;
+		margin-top:5px;
+		width:100%;
+		height:420px;
+		overflow:scroll;
+	}
+	.auto{
+ 	display:block;
+		border:1px solid #DCDCDC;
+		padding:5px;
+		margin-top:5px;
+		width:100%;
+		height:550px;
+		overflow:auto;
+	}
+	
+	</style>
+	<hr> 
+	<div class=scroll>
+	<table id="example2x" class="table table-striped table-bordered" cellspacing="0" width="100%">
+                                            <thead>
+                                               <tr style="font-size:12px">
+                                                    <th width='20%'><center>Kode Data</center></th>
+													<th width='78%'><center>Uraian Data Dukung</center></th> 
+													<th style="width:20px;"><center><input type="checkbox" onchange="checkAll(this)"></center></th>
+                                                </tr>
+                                            </thead>
+	<?php
+										$no=0;
+										$cektabel=mysqli_query($GLOBALS["___mysqli_ston"], "SELECT * FROM tb_ouput_data where tahun='".$_GET['tahun']."'");
+											  while($cekdis=mysqli_fetch_array($cektabel)){  
+										$no++;	  
+										$btn='<input type=checkbox name="kode[]" id="kode" value='.$cekdis['kode_data'].'>';	 
+												?>
+												
+												<tr style="font-size:12px">
+												<td><center><?php echo $cekdis['kode_data'] ?></td>  
+												<td><?php echo $cekdis['uraian_data'] ?><input type=hidden name="uraiansalin[]" value="<?php echo $cekdis['uraian_data'] ?>"</td> 
+												<td align=center><?php echo $btn ?></td>
+												</tr>
+											<?php } ?>
+											<tbody>
+                                            </tbody>
+											</table>
+											</div>
