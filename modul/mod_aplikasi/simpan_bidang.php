@@ -13,7 +13,7 @@ require_once'../../koneksi.php';
 		$data= mysqli_fetch_array($carikode);
    
 		$no= $data['maxKode'];
-		$noUrut= $no + 1;
+		$noUrut= $no + 1; 
 	 
 		$SQL=mysqli_query($con, "insert into tb_bidang values ('$noUrut', '$bidang', '$nama','$nip')"); 
 ?>
