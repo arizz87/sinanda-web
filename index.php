@@ -42,7 +42,7 @@ button, input, optgroup, select, textarea {
 				<img src="img/logo-sinanda.png" width=140 height=120 /></h1>
 				</div>
 				<div style="color:green; font-size:24px; font-weight:600">S I N A N D A</div>
-      <div style="color:brown; font-size:16px; font-weight:600">(Sistem Layanan Penyediaan Data)</div> <hr>
+      <div style="color:brown; font-size:16px; font-weight:600">(Sistem Informasi Layanan Data)</div> <hr>
        </center> 
 			</div>
 			<form method="post" action="" class="login-form" enctype="multipart/form-data" id="formLogin">

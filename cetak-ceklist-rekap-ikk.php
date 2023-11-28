@@ -80,7 +80,7 @@ $dayListk = array(
 								</thead>
 		<?php 
 		$no==0;
-		$data=mysqli_query($GLOBALS["___mysqli_ston"], "select * from tb_ikk_bidang where id_bidang='".$variabel['id_bidang']."' and tahun='$_SESSION[tahun]' ");
+		$data=mysqli_query($GLOBALS["___mysqli_ston"], "select * from tb_ikk_bidang where id_bidang='".$variabel['id_bidang']."' and tahun='$_SESSION[tahun]' order by id_data asc");
 		while($cekdata=mysqli_fetch_array($data)){
 		$cekikk=mysqli_fetch_array(mysqli_query($GLOBALS["___mysqli_ston"], "select * from tb_outcome where id_outcome='".$cekdata['id_data']."' and tahun='$_SESSION[tahun]'")); 
 		$pembilang=mysqli_fetch_array(mysqli_query($GLOBALS["___mysqli_ston"], "select * from tb_ouput_data where id='".$cekikk['pembilang']."' and tahun='$_SESSION[tahun]'")); 
@@ -94,7 +94,7 @@ $dayListk = array(
 		?>
 		<tr style="font-size:12px"> 
 		<td align=center style=padding:8px 10px;><?php echo $no ?></td> 
-		<td style=padding:8px 10px;><?php echo $cekikk['uraian_outcome'] ?></td> 
+		<td style=padding:8px 10px;><?php echo "IKK ".$cekikk['kode_ikk']." - ".$cekikk['uraian_outcome'] ?></td> 
 		<td align=center style=padding:8px 10px;><?php echo $rumus ?></td>  
         </tr> 
 		<?php
@@ -138,7 +138,9 @@ $dayListk = array(
 		</table>  
  
 <script>
+setTimeout(function() {
 window.print() 
+}, 250);
 </script>
 <script>
   MathJax = {

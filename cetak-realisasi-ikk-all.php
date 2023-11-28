@@ -143,7 +143,7 @@ $dayListk = array(
 	 
 	<tr style="font-size:12px">
         <td width="50%"></td>
-        <td width="50%" align="center"><br><br><br><br><b><?php echo $variabel4['nama_kepala'];?></td>
+        <td width="50%" align="center"><br><br><br><br><br><b><?php echo $variabel4['nama_kepala'];?></td>
 	</tr>        
     <tr style="font-size:12px">
         <td width="50%"></td>
@@ -151,7 +151,9 @@ $dayListk = array(
 	</tr>  
 </table> 
 <script>
+setTimeout(function() {
 window.print() 
+}, 250);
 </script>
 <script>
   MathJax = {

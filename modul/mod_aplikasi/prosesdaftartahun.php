@@ -270,8 +270,18 @@ $item = mysqli_fetch_array($rs);
 		   <font style="font-size:13px" color="black">
 						<div class="form-group row"> 
                           <div class="col-sm-12">Tahun Anggaran
-                            <input type="text" class="form-control" id=tahun name=tahun autocomplete="off" style="font-size:13px" value="<?php echo $item['tahun_anggaran'] ?>">
-                          </div>  					  
+						  <?php
+						  if ($item['tahun_anggaran']==$_SESSION['tahun']){
+					      ?>
+                            <input type="text" class="form-control" id=tahun name=tahun readonly autocomplete="off" style="font-size:13px" value="<?php echo $item['tahun_anggaran'] ?>">
+                          <?php
+						  }else{
+					      ?>
+						    <input type="text" class="form-control" id=tahun name=tahun autocomplete="off" style="font-size:13px" value="<?php echo $item['tahun_anggaran'] ?>">
+                          <?php
+						  }
+					      ?>
+						  </div>  					  
                         </div>   
 						<div class="form-group row"> 
                           <div class="col-sm-12">Nama Kepala Instansi 
@@ -283,7 +293,26 @@ $item = mysqli_fetch_array($rs);
                             <input type="text" class="form-control" id=nip  name=nip autocomplete="off" style="font-size:13px" value="<?php echo $item['nip'] ?>">
                           </div>  
                           <div class="col-sm-4">Status
-                           <select class="form-control" name="status" id="status" style="font-size:13px">
+						  <?php
+						  if ($item['tahun_anggaran']==$_SESSION['tahun']){
+					      ?>
+                          <select class="form-control" name="status" id="status" readonly style="font-size:13px"> 
+							  <?php 
+							  if ($item['status']==1){
+							  ?>
+							  <option value="1" selected>Aktif</option>  
+							  <?php 
+							  }else if ($item['status']==0){
+							  ?> 
+							  <option value="0" selected>Tidak Aktif</option>
+							  <?php 
+							  }
+							  ?> 
+                              </select> 
+						  <?php
+						  }else{
+					      ?>
+						   <select class="form-control" name="status" id="status" style="font-size:13px">
 							  <option value=""> </option> 
 							  <?php 
 							  if ($item['status']==1){
@@ -299,6 +328,9 @@ $item = mysqli_fetch_array($rs);
 							  }
 							  ?> 
                               </select>
+						  <?php
+						  }
+					      ?> 
                           </div>  					  
                         </div>
 					 </font>

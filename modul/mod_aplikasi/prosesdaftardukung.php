@@ -237,7 +237,6 @@ $id_dok =$_GET['kode'];
 
 $rs = mysqli_query($GLOBALS["___mysqli_ston"],"select * from tb_ouput_data where id='$id_dok'");
 $item = mysqli_fetch_array($rs);  
- 
 ?> 
            <div class="modal-header">
 					<h5 class="modal-title" id="myModalLabel3"><i class="fa fa-plus"></i> <b>Tambah Data</b></h5> 
@@ -282,6 +281,9 @@ if($mode=='dokumen-hapusdata'){
 $id_dok =$_GET['kode']; 
 $rs = mysqli_query($GLOBALS["___mysqli_ston"],"select * from tb_ouput_data where id='$id_dok'");
 $item = mysqli_fetch_array($rs); 
+$cek1 = mysqli_fetch_array(mysqli_query($GLOBALS["___mysqli_ston"],"select * from tb_datadukung_bidang where id_data='$id_dok'")); 
+$cek2 = mysqli_fetch_array(mysqli_query($GLOBALS["___mysqli_ston"],"select * from tb_outcome where pembilang='$id_dok'")); 
+$cek3 = mysqli_fetch_array(mysqli_query($GLOBALS["___mysqli_ston"],"select * from tb_outcome where pembagi='$id_dok'")); 
 ?> 
            <div class="modal-header">
 					<h5 class="modal-title" id="myModalLabel3"><i class="fa fa-eraser"></i> <b>Hapus Data</b></h5> 
@@ -318,9 +320,19 @@ $item = mysqli_fetch_array($rs);
                   <h5><i class="icon fas fa-exclamation-triangle"></i> Peringatan!</h5>
 				  Anda yakin ingin menghapus Data ini ? Pastikan data sudah di cek.
                 </div> 
-					</div>	
+					</div>	 
             <div class="modal-footer">
-                <button type="button" style="font-size:13px" onClick="submitHapus()"  class="btn btn-info"><i class="fa fa-trash"></i> Hapus</button>
+			<?php 
+			if($cek1  or $cek2  or $cek3){ 
+			?>
+            <button type="button" style="font-size:13px" class="btn btn-secondary" disabled title="Data Sedang Digunakan, Silahkan Refresh Halaman"><i class="fa fa-trash"></i> Hapus</button>
+			<?php
+			}else{
+			?>
+			<button type="button" style="font-size:13px" onClick="submitHapus()"  class="btn btn-info"><i class="fa fa-trash"></i> Hapus</button>
+			<?php
+			}
+			?>
 				 <button type="button" style="font-size:13px" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-times"></i> Batal</button>
             </div>
 						</form>

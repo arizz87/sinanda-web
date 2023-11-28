@@ -284,7 +284,8 @@ $id_dok =$_GET['kode'];
 
 $rs = mysqli_query($GLOBALS["___mysqli_ston"],"select * from tb_outcome where id_outcome='$id_dok'");
 $item = mysqli_fetch_array($rs);  
- 
+
+$cek = mysqli_fetch_array(mysqli_query($GLOBALS["___mysqli_ston"],"select * from  tb_ikk_bidang where id_data='$item[id_outcome]'"));  
 ?> 
            <div class="modal-header">
 					<h5 class="modal-title" id="myModalLabel3"><i class="fa fa-edit"></i> <b>Edit Data</b></h5> 
@@ -394,8 +395,18 @@ $item = mysqli_fetch_array($rs);
 		</div> </div> 	
 					</div>	
             <div class="modal-footer">
-                <button type="button" style="font-size:13px" onClick="simpanedit()"  class="btn btn-success"><i class="fa fa-save"></i> Simpan</button> 
-				 <button type="button" style="font-size:13px" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-times"></i> Batal</button>
+			<?php
+			if ($cek) {
+			?>
+            <button type="button" style="font-size:13px" class="btn btn-secondary" disabled title="Data Sedang Digunakan, Silahkan Refresh Halaman"><i class="fa fa-save"></i> Simpan</button>
+			<?php
+			}else{
+			?>
+			<button type="button" style="font-size:13px" onClick="simpanedit()"  class="btn btn-success"><i class="fa fa-save"></i> Simpan</button> 
+			<?php
+			}
+			?>
+			<button type="button" style="font-size:13px" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-times"></i> Batal</button>
             </div>
 						</form>
 <?php 
@@ -406,7 +417,9 @@ $item = mysqli_fetch_array($rs);
 if($mode=='dokumen-hapusdata'){ 
 $id_dok =$_GET['kode']; 
 $rs = mysqli_query($GLOBALS["___mysqli_ston"],"select * from tb_outcome where id_outcome='$id_dok'");
-$item = mysqli_fetch_array($rs);  
+$item = mysqli_fetch_array($rs); 
+$cek = mysqli_fetch_array(mysqli_query($GLOBALS["___mysqli_ston"],"select * from  tb_ikk_bidang where id_data='$item[id_outcome]'")); 
+
 ?> 
            <div class="modal-header">
 					<h5 class="modal-title" id="myModalLabel3"><i class="fa fa-eraser"></i> <b>Hapus Data</b></h5> 
@@ -433,7 +446,17 @@ $item = mysqli_fetch_array($rs);
                 </div> 
             </div>
             <div class="modal-footer">
-                <button type="button" style="font-size:13px" onClick="submitHapus()"  class="btn btn-info"><i class="fa fa-trash"></i> Hapus</button>
+			<?php
+			if ($cek) {
+			?>
+            <button type="button" style="font-size:13px" class="btn btn-secondary" disabled title="Data Sedang Digunakan, Silahkan Refresh Halaman"><i class="fa fa-trash"></i> Hapus</button>
+			<?php
+			}else{
+			?>
+			<button type="button" style="font-size:13px" onClick="submitHapus()"  class="btn btn-info"><i class="fa fa-trash"></i> Hapus</button>
+			<?php
+			}
+			?>
 				 <button type="button" style="font-size:13px" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-times"></i> Batal</button>
             </div>
 						</form>

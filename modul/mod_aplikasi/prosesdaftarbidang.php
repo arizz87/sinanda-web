@@ -263,8 +263,19 @@ $item = mysqli_fetch_array($rs);
 		  <font style="font-size:13px" color="black">
 						<div class="form-group row"> 
                           <div class="col-sm-12">Nama Bidang 
-                            <input type="text" class="form-control" id=nama name=nama autocomplete="off" style="font-size:13px" value="<?php echo $item['nama_bidang'] ?>">
-                          </div>  					  
+							<?php
+							$cek=mysqli_fetch_array(mysqli_query($GLOBALS["___mysqli_ston"], "select * from tb_ikk_bidang where id_bidang='".$id_dok."'"));  
+							if ($cek){
+							?>
+                            <input type="text" class="form-control" id=nama name=nama readonly autocomplete="off" style="font-size:13px" value="<?php echo $item['nama_bidang'] ?>">
+							<?php
+							}else {
+							?>
+							<input type="text" class="form-control" id=nama name=nama autocomplete="off" style="font-size:13px" value="<?php echo $item['nama_bidang'] ?>">
+							<?php
+							}
+							?>
+						  </div>  					  
                         </div>   
 						<div class="form-group row"> 
                           <div class="col-sm-12">Nama Kepala Bidang 
@@ -332,7 +343,18 @@ $item = mysqli_fetch_array($rs);
                 </div> 
             </div>
             <div class="modal-footer">
-                <button type="button" style="font-size:13px" onClick="submitHapus()"  class="btn btn-info"><i class="fa fa-trash"></i> Hapus</button>
+			<?php
+			$cek=mysqli_fetch_array(mysqli_query($GLOBALS["___mysqli_ston"], "select * from tb_ikk_bidang where id_bidang='".$id_dok."'"));  
+			if ($cek) {
+			?>
+            <button type="button" style="font-size:13px" class="btn btn-secondary" disabled title="Data Sedang Digunakan, Silahkan Refresh Halaman"><i class="fa fa-trash"></i> Hapus</button>
+			<?php
+			}else{
+			?>
+			<button type="button" style="font-size:13px" onClick="submitHapus()"  class="btn btn-info"><i class="fa fa-trash"></i> Hapus</button>
+			<?php
+			}
+			?>
 				 <button type="button" style="font-size:13px" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-times"></i> Batal</button>
             </div>
 						</form>

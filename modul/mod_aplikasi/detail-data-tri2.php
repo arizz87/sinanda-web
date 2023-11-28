@@ -1,7 +1,7 @@
 <html lang="en">
 <script src="./modul/js/jquery-1.11.1.min.js"></script> 
 <script type="text/javascript"></script>
-<script src="modul/js/sinanda-inputtriwulan.js"></script>
+<script src="modul/js/sinanda-inputtriwulannew.js"></script>
 <head> 
 </HEAD>
 <BODY>

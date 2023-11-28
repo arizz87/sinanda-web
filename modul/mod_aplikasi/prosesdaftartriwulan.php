@@ -159,7 +159,7 @@ else
 <script type="text/javascript">
 $(document).ready(function () {
   bsCustomFileInput.init();
-});
+}); 
 </script>
 <style>
 	.scroll{
@@ -223,17 +223,40 @@ $cek=mysqli_fetch_array(mysqli_query($GLOBALS["___mysqli_ston"], "select * from 
 		<?php
 		}
 		?> 
+				
+						<?php
+						if ($cek['validasi']==0){
+						?>
 						<div class="form-group row">  
                           <div class="col-sm-7"> </div>  					  
                           <div class="col-sm-5">Masukan Angka
                          <input type="text" class="form-control" name="angka" id="angka" onkeypress="return numbersonly(this, event)"  autocomplete="off" style="text-align:right" value="<?php echo rupiah2($cek['angka_pembilang']) ?>"> 
 						</div>  					  
                         </div>  
+						<?php
+						}else{
+						?>
+						<div class="form-group row">  
+                          <div class="col-sm-7"> </div>  					  
+                          <div class="col-sm-5">Masukan Angka
+                         <input type="text" class="form-control" name="angka" id="angka" readonly  autocomplete="off" style="text-align:right" value="<?php echo rupiah2($cek['angka_pembilang']) ?>"> 
+						</div>  					  
+                        </div>
+						<font style="font-size:15px;color:red"><b>Keterangan :</b> Maaf data anda sudah di Validasi.</font>
+						<?php
+						}
+						?>
 					 </font>  
 					</div>	
             <div class="modal-footer">
+				<?php
+				if ($cek['validasi']==0){
+				?>
                 <button type="button" style="font-size:13px" onClick="simpan1a()"  class="btn btn-success"><i class="fa fa-save"></i> Simpan</button> 
-				 <button type="button" style="font-size:13px" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-times"></i> Batal</button>
+				<?php
+				}
+				?>
+				<button type="button" onclick=tutup() style="font-size:13px" class="btn btn-danger"><i class="fa fa-times"></i> Batal</button>
             </div>
 						</form>
 <?php 
@@ -261,17 +284,40 @@ $cek=mysqli_fetch_array(mysqli_query($GLOBALS["___mysqli_ston"], "select * from 
 		  <div class="alert alert-warning" style="font-size:13px"> 
 		  <font style="font-size:16px" color="black"><?php echo $pembagi['uraian_data']."<b> (Kode ".$pembagi['kode_data'].")</b> " ?>
 		  </div>
+				
+						<?php
+						if ($cek['validasi']==0){
+						?>
 						<div class="form-group row">  
                           <div class="col-sm-7"> </div>  					  
                           <div class="col-sm-5">Masukan Angka
-                        <input type="text" class="form-control" name="angka" id="angka" onkeypress="return numbersonly(this, event)"  autocomplete="off" style="text-align:right" value="<?php echo rupiah2($cek['angka_pembagi']) ?>"> 
+                         <input type="text" class="form-control" name="angka" id="angka" onkeypress="return numbersonly(this, event)"  autocomplete="off" style="text-align:right" value="<?php echo rupiah2($cek['angka_pembagi']) ?>"> 
 						</div>  					  
                         </div>  
+						<?php
+						}else{
+						?>
+						<div class="form-group row">  
+                          <div class="col-sm-7"> </div>  					  
+                          <div class="col-sm-5">Masukan Angka
+                         <input type="text" class="form-control" name="angka" id="angka" readonly  autocomplete="off" style="text-align:right" value="<?php echo rupiah2($cek['angka_pembagi']) ?>"> 
+						</div>  					  
+                        </div>
+						<font style="font-size:15px;color:red"><b>Keterangan :</b> Maaf data anda sudah di Validasi.</font>
+						<?php
+						}
+						?>
 					 </font>  
 					</div>	
             <div class="modal-footer">
+				<?php
+				if ($cek['validasi']==0){
+				?>
                 <button type="button" style="font-size:13px" onClick="simpan1b()"  class="btn btn-success"><i class="fa fa-save"></i> Simpan</button> 
-				 <button type="button" style="font-size:13px" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-times"></i> Batal</button>
+				<?php
+				}
+				?>
+				<button type="button" onclick=tutup() style="font-size:13px" class="btn btn-danger"><i class="fa fa-times"></i> Batal</button>
             </div>
 						</form>
 <?php 
@@ -294,8 +340,9 @@ $cek=mysqli_fetch_array(mysqli_query($GLOBALS["___mysqli_ston"], "select * from 
 			<input type="hidden" class="form-control" id=iddukung name=iddukung  style="font-size:13px" value="<?php echo $item['id_dukung'] ?>">
                 
 		  <div class="alert alert-warning" style="font-size:13px"> 
-		  <font style="font-size:16px" color="black"><?php echo $cek['uraian_data']."<b> (Kode ".$cek['kode_data'].")</b> " ?>
+		  <font style="font-size:15px" color="black"><?php echo $cek['uraian_data']."<b> (Kode ".$cek['kode_data'].")</b> " ?>
 		  </div>
+		  <font style="font-size:13px;color:red"><b>Keterangan :</b> File yang diupload hasil scan berformat PDF maksimal 5 MB.</font> 
 						<div class="form-group row">  
                           <div class="col-sm-12"> 
 						    <div class="alert alert-light" style="font-size:13px">  
@@ -350,17 +397,40 @@ $cek=mysqli_fetch_array(mysqli_query($GLOBALS["___mysqli_ston"], "select * from 
 		<?php
 		}
 		?> 
+			
+						<?php
+						if ($cek['validasi']==0){
+						?>
 						<div class="form-group row">  
                           <div class="col-sm-7"> </div>  					  
                           <div class="col-sm-5">Masukan Angka
                          <input type="text" class="form-control" name="angka" id="angka" onkeypress="return numbersonly(this, event)"  autocomplete="off" style="text-align:right" value="<?php echo rupiah2($cek['angka_pembilang']) ?>"> 
 						</div>  					  
                         </div>  
+						<?php
+						}else{
+						?>
+						<div class="form-group row">  
+                          <div class="col-sm-7"> </div>  					  
+                          <div class="col-sm-5">Masukan Angka
+                         <input type="text" class="form-control" name="angka" id="angka" readonly  autocomplete="off" style="text-align:right" value="<?php echo rupiah2($cek['angka_pembilang']) ?>"> 
+						</div>  					  
+                        </div>
+						<font style="font-size:15px;color:red"><b>Keterangan :</b> Maaf data anda sudah di Validasi.</font>
+						<?php
+						}
+						?>
 					 </font>  
 					</div>	
             <div class="modal-footer">
+				<?php
+				if ($cek['validasi']==0){
+				?>
                 <button type="button" style="font-size:13px" onClick="simpan2a()"  class="btn btn-success"><i class="fa fa-save"></i> Simpan</button> 
-				 <button type="button" style="font-size:13px" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-times"></i> Batal</button>
+				<?php
+				}
+				?>
+				<button type="button" onclick=tutup() style="font-size:13px" class="btn btn-danger"><i class="fa fa-times"></i> Batal</button>
             </div>
 						</form>
 <?php 
@@ -388,17 +458,40 @@ $cek=mysqli_fetch_array(mysqli_query($GLOBALS["___mysqli_ston"], "select * from 
 		  <div class="alert alert-warning" style="font-size:13px"> 
 		  <font style="font-size:16px" color="black"><?php echo $pembagi['uraian_data']."<b> (Kode ".$pembagi['kode_data'].")</b> " ?>
 		  </div>
+					
+						<?php
+						if ($cek['validasi']==0){
+						?>
 						<div class="form-group row">  
                           <div class="col-sm-7"> </div>  					  
                           <div class="col-sm-5">Masukan Angka
-                        <input type="text" class="form-control" name="angka" id="angka" onkeypress="return numbersonly(this, event)"  autocomplete="off" style="text-align:right" value="<?php echo rupiah2($cek['angka_pembagi']) ?>"> 
+                         <input type="text" class="form-control" name="angka" id="angka" onkeypress="return numbersonly(this, event)"  autocomplete="off" style="text-align:right" value="<?php echo rupiah2($cek['angka_pembagi']) ?>"> 
 						</div>  					  
                         </div>  
+						<?php
+						}else{
+						?>
+						<div class="form-group row">  
+                          <div class="col-sm-7"> </div>  					  
+                          <div class="col-sm-5">Masukan Angka
+                         <input type="text" class="form-control" name="angka" id="angka" readonly  autocomplete="off" style="text-align:right" value="<?php echo rupiah2($cek['angka_pembagi']) ?>"> 
+						</div>  					  
+                        </div>
+						<font style="font-size:15px;color:red"><b>Keterangan :</b> Maaf data anda sudah di Validasi.</font>
+						<?php
+						}
+						?>
 					 </font>  
 					</div>	
             <div class="modal-footer">
+				<?php
+				if ($cek['validasi']==0){
+				?>
                 <button type="button" style="font-size:13px" onClick="simpan2b()"  class="btn btn-success"><i class="fa fa-save"></i> Simpan</button> 
-				 <button type="button" style="font-size:13px" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-times"></i> Batal</button>
+				<?php
+				}
+				?>
+				<button type="button" onclick=tutup() style="font-size:13px" class="btn btn-danger"><i class="fa fa-times"></i> Batal</button>
             </div>
 						</form>
 <?php 
@@ -438,17 +531,39 @@ $cek=mysqli_fetch_array(mysqli_query($GLOBALS["___mysqli_ston"], "select * from 
 		<?php
 		}
 		?> 
+						<?php
+						if ($cek['validasi']==0){
+						?>
 						<div class="form-group row">  
                           <div class="col-sm-7"> </div>  					  
                           <div class="col-sm-5">Masukan Angka
                          <input type="text" class="form-control" name="angka" id="angka" onkeypress="return numbersonly(this, event)"  autocomplete="off" style="text-align:right" value="<?php echo rupiah2($cek['angka_pembilang']) ?>"> 
 						</div>  					  
                         </div>  
+						<?php
+						}else{
+						?>
+						<div class="form-group row">  
+                          <div class="col-sm-7"> </div>  					  
+                          <div class="col-sm-5">Masukan Angka
+                         <input type="text" class="form-control" name="angka" id="angka" readonly  autocomplete="off" style="text-align:right" value="<?php echo rupiah2($cek['angka_pembilang']) ?>"> 
+						</div>  					  
+                        </div>
+						<font style="font-size:15px;color:red"><b>Keterangan :</b> Maaf data anda sudah di Validasi.</font>
+						<?php
+						}
+						?>
 					 </font>  
 					</div>	
             <div class="modal-footer">
+				<?php
+				if ($cek['validasi']==0){
+				?>
                 <button type="button" style="font-size:13px" onClick="simpan3a()"  class="btn btn-success"><i class="fa fa-save"></i> Simpan</button> 
-				 <button type="button" style="font-size:13px" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-times"></i> Batal</button>
+				<?php
+				}
+				?>
+				<button type="button" onclick=tutup() style="font-size:13px" class="btn btn-danger"><i class="fa fa-times"></i> Batal</button>
             </div>
 						</form>
 <?php 
@@ -476,17 +591,40 @@ $cek=mysqli_fetch_array(mysqli_query($GLOBALS["___mysqli_ston"], "select * from 
 		  <div class="alert alert-warning" style="font-size:13px"> 
 		  <font style="font-size:16px" color="black"><?php echo $pembagi['uraian_data']."<b> (Kode ".$pembagi['kode_data'].")</b> " ?>
 		  </div>
+			
+						<?php
+						if ($cek['validasi']==0){
+						?>
 						<div class="form-group row">  
                           <div class="col-sm-7"> </div>  					  
                           <div class="col-sm-5">Masukan Angka
-                        <input type="text" class="form-control" name="angka" id="angka" onkeypress="return numbersonly(this, event)"  autocomplete="off" style="text-align:right" value="<?php echo rupiah2($cek['angka_pembagi']) ?>"> 
+                         <input type="text" class="form-control" name="angka" id="angka" onkeypress="return numbersonly(this, event)"  autocomplete="off" style="text-align:right" value="<?php echo rupiah2($cek['angka_pembagi']) ?>"> 
 						</div>  					  
                         </div>  
+						<?php
+						}else{
+						?>
+						<div class="form-group row">  
+                          <div class="col-sm-7"> </div>  					  
+                          <div class="col-sm-5">Masukan Angka
+                         <input type="text" class="form-control" name="angka" id="angka" readonly  autocomplete="off" style="text-align:right" value="<?php echo rupiah2($cek['angka_pembagi']) ?>"> 
+						</div>  					  
+                        </div>
+						<font style="font-size:15px;color:red"><b>Keterangan :</b> Maaf data anda sudah di Validasi.</font>
+						<?php
+						}
+						?>
 					 </font>  
 					</div>	
             <div class="modal-footer">
+				<?php
+				if ($cek['validasi']==0){
+				?>
                 <button type="button" style="font-size:13px" onClick="simpan3b()"  class="btn btn-success"><i class="fa fa-save"></i> Simpan</button> 
-				 <button type="button" style="font-size:13px" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-times"></i> Batal</button>
+				<?php
+				}
+				?>
+				<button type="button" onclick=tutup() style="font-size:13px" class="btn btn-danger"><i class="fa fa-times"></i> Batal</button>
             </div>
 						</form>
 <?php 
@@ -525,17 +663,40 @@ $cek=mysqli_fetch_array(mysqli_query($GLOBALS["___mysqli_ston"], "select * from 
 		<?php
 		}
 		?> 
+			
+						<?php
+						if ($cek['validasi']==0){
+						?>
 						<div class="form-group row">  
                           <div class="col-sm-7"> </div>  					  
                           <div class="col-sm-5">Masukan Angka
                          <input type="text" class="form-control" name="angka" id="angka" onkeypress="return numbersonly(this, event)"  autocomplete="off" style="text-align:right" value="<?php echo rupiah2($cek['angka_pembilang']) ?>"> 
 						</div>  					  
                         </div>  
+						<?php
+						}else{
+						?>
+						<div class="form-group row">  
+                          <div class="col-sm-7"> </div>  					  
+                          <div class="col-sm-5">Masukan Angka
+                         <input type="text" class="form-control" name="angka" id="angka" readonly  autocomplete="off" style="text-align:right" value="<?php echo rupiah2($cek['angka_pembilang']) ?>"> 
+						</div>  					  
+                        </div>
+						<font style="font-size:15px;color:red"><b>Keterangan :</b> Maaf data anda sudah di Validasi.</font>
+						<?php
+						}
+						?>
 					 </font>  
 					</div>	
             <div class="modal-footer">
+				<?php
+				if ($cek['validasi']==0){
+				?>
                 <button type="button" style="font-size:13px" onClick="simpan4a()"  class="btn btn-success"><i class="fa fa-save"></i> Simpan</button> 
-				 <button type="button" style="font-size:13px" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-times"></i> Batal</button>
+				<?php
+				}
+				?>
+				<button type="button" onclick=tutup() style="font-size:13px" class="btn btn-danger"><i class="fa fa-times"></i> Batal</button>
             </div>
 						</form>
 <?php 
@@ -563,17 +724,40 @@ $cek=mysqli_fetch_array(mysqli_query($GLOBALS["___mysqli_ston"], "select * from 
 		  <div class="alert alert-warning" style="font-size:13px"> 
 		  <font style="font-size:16px" color="black"><?php echo $pembagi['uraian_data']."<b> (Kode ".$pembagi['kode_data'].")</b> " ?>
 		  </div>
+				
+						<?php
+						if ($cek['validasi']==0){
+						?>
 						<div class="form-group row">  
                           <div class="col-sm-7"> </div>  					  
                           <div class="col-sm-5">Masukan Angka
-                        <input type="text" class="form-control" name="angka" id="angka" onkeypress="return numbersonly(this, event)"  autocomplete="off" style="text-align:right" value="<?php echo rupiah2($cek['angka_pembagi']) ?>"> 
+                         <input type="text" class="form-control" name="angka" id="angka" onkeypress="return numbersonly(this, event)"  autocomplete="off" style="text-align:right" value="<?php echo rupiah2($cek['angka_pembagi']) ?>"> 
 						</div>  					  
                         </div>  
+						<?php
+						}else{
+						?>
+						<div class="form-group row">  
+                          <div class="col-sm-7"> </div>  					  
+                          <div class="col-sm-5">Masukan Angka
+                         <input type="text" class="form-control" name="angka" id="angka" readonly  autocomplete="off" style="text-align:right" value="<?php echo rupiah2($cek['angka_pembagi']) ?>"> 
+						</div>  					  
+                        </div>
+						<font style="font-size:15px;color:red"><b>Keterangan :</b> Maaf data anda sudah di Validasi.</font>
+						<?php
+						}
+						?>
 					 </font>  
 					</div>	
             <div class="modal-footer">
+				<?php
+				if ($cek['validasi']==0){
+				?>
                 <button type="button" style="font-size:13px" onClick="simpan4b()"  class="btn btn-success"><i class="fa fa-save"></i> Simpan</button> 
-				 <button type="button" style="font-size:13px" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-times"></i> Batal</button>
+				<?php
+				}
+				?>
+				<button type="button" onclick=tutup() style="font-size:13px" class="btn btn-danger"><i class="fa fa-times"></i> Batal</button>
             </div>
 						</form>
 <?php 

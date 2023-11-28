@@ -55,11 +55,11 @@ $tglusul=date('d-m-Y');
 						while($caridata=mysqli_fetch_array($data)){
 						$cek = mysqli_fetch_array(mysqli_query($GLOBALS["___mysqli_ston"],"select * from  tb_ikk_bidang where id_data='$caridata[id_outcome]'")); 
 						if ($cek) {
-						$btnaprove= '<button type="button" title="Data Sedang Digunakan" class="btn btn-secondary btn-xs" disabled><i class="fa fa-lock"></i> Edit</button></a> 
-						<button type="button" title="Data Sedang Digunakan" class="btn btn-secondary btn-xs" disabled><i class="fa fa-lock"></i> Hapus</button></a>';
+						$btnaprove= '<button type="button" title="Data Sedang Digunakan" class="btn btn-secondary btn-xs" disabled style=width:60px><i class="fa fa-lock"></i> Edit</button></a> 
+						<button type="button" title="Data Sedang Digunakan" class="btn btn-secondary btn-xs" disabled style=width:60px><i class="fa fa-lock"></i> Hapus</button></a>';
 						}else{
-						$btnaprove= '<button type="button" onClick="edit(\''.$caridata['id_outcome'].'\')" title="Edit Data" class="btn btn-info btn-xs"><i class="fa fa-edit"></i> Edit</button></a> 
-						<button type="button" onClick="hapus(\''.$caridata['id_outcome'].'\')" title="Hapus Data" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i> Hapus</button></a>';
+						$btnaprove= '<button type="button" onClick="edit(\''.$caridata['id_outcome'].'\')" title="Edit Data" class="btn btn-info btn-xs" style=width:60px><i class="fa fa-edit"></i> Edit</button></a> 
+						<button type="button" onClick="hapus(\''.$caridata['id_outcome'].'\')" title="Hapus Data" class="btn btn-danger btn-xs" style=width:60px><i class="fa fa-trash"></i> Hapus</button></a>';
 						}
 						$no++;
 						$pembilang=mysqli_fetch_array(mysqli_query($GLOBALS["___mysqli_ston"], "select * from tb_ouput_data where id='".$caridata['pembilang']."' and tahun='$_SESSION[tahun]'")); 

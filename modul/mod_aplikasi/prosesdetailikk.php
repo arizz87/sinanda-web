@@ -566,6 +566,7 @@ $cekbidang=mysqli_fetch_array(mysqli_query($GLOBALS["___mysqli_ston"], "select *
                               <option value="2">Triwulan 2</option>
                               <option value="3">Triwulan 3</option>
                               <option value="4">Triwulan 4</option>
+                              <option value="5">Rekap Semua Triwulan</option>
                               </select>
                           </div></div>  					   					  
                         </div> 

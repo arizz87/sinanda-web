@@ -175,7 +175,7 @@
 		 $hitung1=mysqli_query($GLOBALS["___mysqli_ston"], "select * from tb_ikk_bidang where id_bidang='$aRow[id_bidang]' and tahun='$_SESSION[tahun]' and tri1=1");
 		 $jumlah_record1x=mysqli_num_rows($hitung1);
 
-		 $phitung1=mysqli_query($GLOBALS["___mysqli_ston"], "select * from tb_nilai_ikk_tri1 where id_bidang='$aRow[id_bidang]' and tahun='$_SESSION[tahun]' and triwulan=1");
+		 $phitung1=mysqli_query($GLOBALS["___mysqli_ston"], "select * from tb_nilai_ikk_tri1,tb_ikk_bidang where tb_ikk_bidang.id_ikk=tb_nilai_ikk_tri1.id_ikk and tb_nilai_ikk_tri1.id_bidang='$aRow[id_bidang]' and tb_nilai_ikk_tri1.tahun='$_SESSION[tahun]' and tb_nilai_ikk_tri1.triwulan=1 and tb_ikk_bidang.tri1=1");
 		 $pjumlah_record1x=mysqli_num_rows($phitung1); 
 
 		 $persentotaltri1x=($pjumlah_record1x/$jumlah_record1x)*100;
@@ -193,7 +193,7 @@
 		 
 		 $hitung2=mysqli_query($GLOBALS["___mysqli_ston"], "select * from tb_ikk_bidang where id_bidang='$aRow[id_bidang]' and tahun='$_SESSION[tahun]' and tri2=1");
 		 $jumlah_record2x=mysqli_num_rows($hitung2);
-		 $phitung2=mysqli_query($GLOBALS["___mysqli_ston"], "select * from tb_nilai_ikk_tri1 where id_bidang='$aRow[id_bidang]' and tahun='$_SESSION[tahun]' and triwulan=2");
+		 $phitung2=mysqli_query($GLOBALS["___mysqli_ston"], "select * from tb_nilai_ikk_tri1,tb_ikk_bidang where tb_ikk_bidang.id_ikk=tb_nilai_ikk_tri1.id_ikk and tb_nilai_ikk_tri1.id_bidang='$aRow[id_bidang]' and tb_nilai_ikk_tri1.tahun='$_SESSION[tahun]' and tb_nilai_ikk_tri1.triwulan=2 and tb_ikk_bidang.tri2=1");
 		 $pjumlah_record2x=mysqli_num_rows($phitung2); 
 
 		 $persentotaltri2x=($pjumlah_record2x/$jumlah_record2x)*100;
@@ -210,7 +210,7 @@
 		}
 		 $hitung3=mysqli_query($GLOBALS["___mysqli_ston"], "select * from tb_ikk_bidang where id_bidang='$aRow[id_bidang]' and tahun='$_SESSION[tahun]' and tri3=1");
 		 $jumlah_record3x=mysqli_num_rows($hitung3);
-		 $phitung3=mysqli_query($GLOBALS["___mysqli_ston"], "select * from tb_nilai_ikk_tri1 where id_bidang='$aRow[id_bidang]' and tahun='$_SESSION[tahun]' and triwulan=3");
+		 $phitung3=mysqli_query($GLOBALS["___mysqli_ston"], "select * from tb_nilai_ikk_tri1,tb_ikk_bidang where tb_ikk_bidang.id_ikk=tb_nilai_ikk_tri1.id_ikk and tb_nilai_ikk_tri1.id_bidang='$aRow[id_bidang]' and tb_nilai_ikk_tri1.tahun='$_SESSION[tahun]' and tb_nilai_ikk_tri1.triwulan=3 and tb_ikk_bidang.tri3=1");
 		 $pjumlah_record3x=mysqli_num_rows($phitung3); 
 
 		 $persentotaltri3x=($pjumlah_record3x/$jumlah_record3x)*100;
@@ -227,7 +227,7 @@
 		}
 		 $hitung4=mysqli_query($GLOBALS["___mysqli_ston"], "select * from tb_ikk_bidang where id_bidang='$aRow[id_bidang]' and tahun='$_SESSION[tahun]' and tri4=1");
 		 $jumlah_record4x=mysqli_num_rows($hitung4);
-		 $phitung4=mysqli_query($GLOBALS["___mysqli_ston"], "select * from tb_nilai_ikk_tri1 where id_bidang='$aRow[id_bidang]' and tahun='$_SESSION[tahun]' and triwulan=4");
+		 $phitung4=mysqli_query($GLOBALS["___mysqli_ston"], "select * from tb_nilai_ikk_tri1,tb_ikk_bidang where tb_ikk_bidang.id_ikk=tb_nilai_ikk_tri1.id_ikk and tb_nilai_ikk_tri1.id_bidang='$aRow[id_bidang]' and tb_nilai_ikk_tri1.tahun='$_SESSION[tahun]' and tb_nilai_ikk_tri1.triwulan=4 and tb_ikk_bidang.tri4=1");
 		 $pjumlah_record4x=mysqli_num_rows($phitung4); 
 
 		 $persentotaltri4x=($pjumlah_record4x/$jumlah_record4x)*100;
@@ -236,7 +236,7 @@
 		if ($jumlah_record4x==0){
 		$datatri4='<span class="badge bg-danger" style="font-size:11px">0%</span>';	
 		}else{
-		if ($persentotaltri42 >=60){
+		if ($persentotaltri4 >=60){
 		$datatri4='<span class="badge bg-success" style="font-size:11px">'.$persentotaltri4.'%</span>';
 		}else{
 		$datatri4='<span class="badge bg-danger" style="font-size:11px">'.$persentotaltri4.'%</span>';

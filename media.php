@@ -133,7 +133,7 @@ if($_SESSION['level']=='user'){
   <nav class="main-header navbar navbar-expand-md navbar-light navbar-white">
     <div class="container">
      <a href="#" class="navbar-brand"> 
-        <span class="brand-text font-weight-light"><img src="img/logo-sinanda.png" width=50 height=45 /> <font style=color:#3e3c3b><b>S I N A N D A <span class="text-sm">Sistem Layanan Penyediaan Data</span></b></font>
+        <span class="brand-text font-weight-light"><img src="img/logo-sinanda.png" width=50 height=45 /> <font style=color:#3e3c3b><b>S I N A N D A <span class="text-sm">Sistem Informasi Layanan Data</span></b></font>
       </a> 
       <!-- Right navbar links -->
        

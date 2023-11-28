@@ -97,7 +97,7 @@ $dayListk = array(
 		}else if ($_POST['tri']==4){
 		$tri="tri4";
 		}
-		$data=mysqli_query($GLOBALS["___mysqli_ston"], "select * from tb_ikk_bidang where id_bidang='".$_SESSION['id_bidang']."' and tahun='$_SESSION[tahun]' and $tri=1");
+		$data=mysqli_query($GLOBALS["___mysqli_ston"], "select * from tb_ikk_bidang where id_bidang='".$_SESSION['id_bidang']."' and tahun='$_SESSION[tahun]' and $tri=1 order by id_data asc");
 		while($cekdata=mysqli_fetch_array($data)){
 		$cekikk=mysqli_fetch_array(mysqli_query($GLOBALS["___mysqli_ston"], "select * from tb_outcome where id_outcome='".$cekdata['id_data']."' and tahun='$_SESSION[tahun]'")); 
 		$pembilang=mysqli_fetch_array(mysqli_query($GLOBALS["___mysqli_ston"], "select * from tb_ouput_data where id='".$cekikk['pembilang']."' and tahun='$_SESSION[tahun]'")); 
@@ -112,7 +112,7 @@ $dayListk = array(
 		}
 		
 		if ($cekikk['datapersen']==1){
-		$rumus1='('.$pembilang['uraian_data'].' <b>dibagi</b> <br>'.$pembagi['uraian_data'].')  x 100%';
+		$rumus1='('.$pembilang['uraian_data'].' <b>dibagi</b> <br>'.$pembagi['uraian_data'].')  <b>dikali</b> 100%';
 		$totnilai=($nilai['angka_pembilang']/$nilai['angka_pembagi'])*100;
 		if($nilai['angka_pembilang']==0 and $nilai['angka_pembagi']==0){
 		$persennilai='<font style=font-size:12px><b> 0%</font>';	
@@ -134,7 +134,7 @@ $dayListk = array(
 		<td align=center style=padding:8px 10px; valign=top ><?php echo $no ?></td> 
 		<td style=padding:8px 10px; valign=top ><?php echo "IKK ".$cekikk['kode_ikk']." - ".$cekikk['uraian_outcome'] ?></td> 
 		<td align=center style=padding:8px 10px; valign=top ><?php echo $rumus1 ?></td> 
-		<td align=center style="padding:8px 10px;" valign=top ><?php echo $rumus2."<br><br><b>Capaian = ".$persennilai ?></td>   
+		<td align=center style="padding:8px 10px;" valign=top ><?php echo $rumus2."<br><br><b> = ".$persennilai ?></td>   
         </tr> 
 		<?php
 		}
@@ -144,12 +144,12 @@ $dayListk = array(
 <table cellspacing="0"  cellpadding="1" border="0"  width="100%">
     <tr style="font-size:12px">
         <td width="65%"></td>
-        <td width="35%" align="center" valign="top"><font style=text-transform:uppercase> KEPALA <?php echo $variabel2['nama_bidang'];?>, </font></td>
+        <td width="35%" align="center" valign="top"><font style=text-transform:uppercase> KEPALA <?php echo $variabel2['nama_bidang'];?> </font></td>
 	</tr> 
 	 
 	<tr style="font-size:12px">
         <td width="50%"></td>
-        <td width="50%" align="center"><br><br><br><br><b><font style=text-transform:uppercase><?php echo $variabel2['nama_kabid'];?></font></td>
+        <td width="50%" align="center"><br><br><br><br><br><b><font style=text-transform:uppercase><?php echo $variabel2['nama_kabid'];?></font></td>
 	</tr>        
     <tr style="font-size:12px">
         <td width="50%"></td>
@@ -157,7 +157,9 @@ $dayListk = array(
 	</tr>  
 </table> 
 <script>
+setTimeout(function() {
 window.print() 
+}, 250);
 </script>
 <script>
   MathJax = {

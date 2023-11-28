@@ -8,7 +8,7 @@ require_once'../../koneksi.php';
 		$pembagi=htmlspecialchars($_POST['pembagi'], ENT_QUOTES); 
 		$pembilang=htmlspecialchars($_POST['pembilang'], ENT_QUOTES);   
 	   
-		$carikode = mysqli_query($GLOBALS["___mysqli_ston"],"select max(id_outcome) maxKode from tb_outcome where  tahun='$_SESSION[tahun]'") or die (mysqli_error());
+		$carikode = mysqli_query($GLOBALS["___mysqli_ston"],"select max(id_outcome) maxKode from tb_outcome") or die (mysqli_error());
 		// menjadikannya array
 		$data= mysqli_fetch_array($carikode);
    

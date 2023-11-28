@@ -162,9 +162,13 @@
 	while ( $aRow = $rResult->fetch_assoc() ) {
 		$row = array(); 
 		$no++;
+		if ($aRow['tahun_anggaran']==$_SESSION['tahun']){
+		$btnaprove= '<a href="#" onClick="edit(\''.$aRow['id_tahun'].'\')"><button type="button" title="Edit Data" class="btn btn-info btn-xs"><i class="fa fa-edit"></i> Edit</button></a>
+		<button type="button" title="Sedang Berjalan" class="btn btn-secondary btn-xs" disabled><i class="fa fa-lock"></i> Hapus</button></a>';
+	  	}else{
 		$btnaprove= '<a href="#" onClick="edit(\''.$aRow['id_tahun'].'\')"><button type="button" title="Edit Data" class="btn btn-info btn-xs"><i class="fa fa-edit"></i> Edit</button></a> 
 		<a href="#" onClick="hapus	(\''.$aRow['id_tahun'].'\')"><button type="button" title="Hapus Data" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i> Hapus</button></a>';
-	  		
+	  	}
 		   //$btn.= '<a href="#" onClick="deleteUser(\''.$aRow['nourut'].'\')"><button type="button" class="btn btn-danger btn-xs"><i class="glyphicon glyphicon-trash"></i> Hapus</button></a> ';
 		for ( $i=0 ; $i<$iColumnCount ; $i++ ) {
 			$row[] = $aRow[ $aColumns[$i] ];

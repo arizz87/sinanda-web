@@ -316,7 +316,7 @@ if($_SESSION['level']=='admin'){
 <section class="content">
         <section class="header">
           <ol class="breadcrumb" style="background-color:#373434">
-            <li><a href="#"><div style="color:#FFF">SISTEM LAYANAN PENYEDIAAN DATA (SINANDA) DINPERINAKER KAB. BREBES</div></a></li>
+            <li><a href="#"><div style="color:#FFF">SISTEM INFORMASI LAYANAN DATA (SINANDA) DINPERINAKER KAB. BREBES</div></a></li>
           </ol>
         </section>
         </section>

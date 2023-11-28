@@ -17,7 +17,27 @@ $carisubkegiatan=mysqli_fetch_array(mysqli_query($GLOBALS["___mysqli_ston"], "SE
  
 $tglusul=date('d-m-Y');	
 ?> 
- 
+<style> 
+	.auto{
+ 	display:block;
+		border:1px solid #fffff;
+		padding:5px;
+		margin-top:5px;
+		width:100%;
+		height:430px;
+		overflow:auto;
+	}
+	
+	.auto2{
+ 	display:block;
+		border:1px solid #fffff;
+		padding:5px;
+		margin-top:5px;
+		width:100%;
+		height:330px;
+		overflow:auto;
+	}
+</style>	 
 <div class="card card-default"> 	
  <div class="row">
 <div class="col-lg-6">
@@ -33,8 +53,10 @@ $tglusul=date('d-m-Y');
 				<h3 class="card-title"> 
                  <font style="font-size:44px">&nbsp;</font>
                 </h3>
+			<div class=auto2>
 			 <canvas id="horizontal-stacker-bar-chart" ></canvas>
               </div>
+			   </div>
             </div></div> 
 			 <div class="row">
 			<div class="col-lg-12">
@@ -47,8 +69,10 @@ $tglusul=date('d-m-Y');
                 <i class="fas fa-chart-line mr-1"></i>
                   Grafik Realisasi Triwulan Per IKK Tahun <?php echo $_SESSION['tahun'] ?>
                 </h3><br><br>
+			<div class=auto>
 			<canvas id="canvas"></canvas> 
               </div>
+			  </div>
             </div></div></div> 
 			 
 			
@@ -70,6 +94,7 @@ $tglusul=date('d-m-Y');
 				 </div> </div>
                 </h3> 
 				<br> 
+			<div class=auto2>
 			 <table id="examplex" class="table table-striped table-bordered" cellspacing="0" width="100%">
 									<thead>
 									  <tr style="font-size:12px"> 
@@ -88,7 +113,7 @@ $tglusul=date('d-m-Y');
 												  $hitung1=mysqli_query($GLOBALS["___mysqli_ston"], "select * from tb_ikk_bidang where id_bidang='$cekdata[id_bidang]' and tahun='$_SESSION[tahun]' and tri1=1");
 												 $jumlah_record1x=mysqli_num_rows($hitung1);
 
-												 $phitung1=mysqli_query($GLOBALS["___mysqli_ston"], "select * from tb_nilai_ikk_tri1 where id_bidang='$cekdata[id_bidang]' and tahun='$_SESSION[tahun]' and triwulan=1");
+												 $phitung1=mysqli_query($GLOBALS["___mysqli_ston"], "select * from tb_nilai_ikk_tri1,tb_ikk_bidang where tb_ikk_bidang.id_ikk=tb_nilai_ikk_tri1.id_ikk and tb_nilai_ikk_tri1.id_bidang='$cekdata[id_bidang]' and tb_nilai_ikk_tri1.tahun='$_SESSION[tahun]' and tb_nilai_ikk_tri1.triwulan=1 and tb_ikk_bidang.tri1=1");
 												 $pjumlah_record1x=mysqli_num_rows($phitung1); 
 
 												 $persentotaltri1x=($pjumlah_record1x/$jumlah_record1x)*100;
@@ -109,7 +134,7 @@ $tglusul=date('d-m-Y');
 												 
 												 $hitung2=mysqli_query($GLOBALS["___mysqli_ston"], "select * from tb_ikk_bidang where id_bidang='$cekdata[id_bidang]' and tahun='$_SESSION[tahun]' and tri2=1");
 												 $jumlah_record2x=mysqli_num_rows($hitung2);
-												 $phitung2=mysqli_query($GLOBALS["___mysqli_ston"], "select * from tb_nilai_ikk_tri1 where id_bidang='$cekdata[id_bidang]' and tahun='$_SESSION[tahun]' and triwulan=2");
+												 $phitung2=mysqli_query($GLOBALS["___mysqli_ston"], "select * from tb_nilai_ikk_tri1,tb_ikk_bidang where tb_ikk_bidang.id_ikk=tb_nilai_ikk_tri1.id_ikk and tb_nilai_ikk_tri1.id_bidang='$cekdata[id_bidang]' and tb_nilai_ikk_tri1.tahun='$_SESSION[tahun]' and tb_nilai_ikk_tri1.triwulan=2 and tb_ikk_bidang.tri2=1");
 												 $pjumlah_record2x=mysqli_num_rows($phitung2); 
 
 												 $persentotaltri2x=($pjumlah_record2x/$jumlah_record2x)*100;
@@ -129,7 +154,7 @@ $tglusul=date('d-m-Y');
 												}
 												 $hitung3=mysqli_query($GLOBALS["___mysqli_ston"], "select * from tb_ikk_bidang where id_bidang='$cekdata[id_bidang]' and tahun='$_SESSION[tahun]' and tri3=1");
 												 $jumlah_record3x=mysqli_num_rows($hitung3);
-												 $phitung3=mysqli_query($GLOBALS["___mysqli_ston"], "select * from tb_nilai_ikk_tri1 where id_bidang='$cekdata[id_bidang]' and tahun='$_SESSION[tahun]' and triwulan=3");
+												 $phitung3=mysqli_query($GLOBALS["___mysqli_ston"], "select * from tb_nilai_ikk_tri1,tb_ikk_bidang where tb_ikk_bidang.id_ikk=tb_nilai_ikk_tri1.id_ikk and tb_nilai_ikk_tri1.id_bidang='$cekdata[id_bidang]' and tb_nilai_ikk_tri1.tahun='$_SESSION[tahun]' and tb_nilai_ikk_tri1.triwulan=3 and tb_ikk_bidang.tri3=1");
 												 $pjumlah_record3x=mysqli_num_rows($phitung3); 
 
 												 $persentotaltri3x=($pjumlah_record3x/$jumlah_record3x)*100;
@@ -149,7 +174,7 @@ $tglusul=date('d-m-Y');
 												}
 												 $hitung4=mysqli_query($GLOBALS["___mysqli_ston"], "select * from tb_ikk_bidang where id_bidang='$cekdata[id_bidang]' and tahun='$_SESSION[tahun]' and tri4=1");
 												 $jumlah_record4x=mysqli_num_rows($hitung4);
-												 $phitung4=mysqli_query($GLOBALS["___mysqli_ston"], "select * from tb_nilai_ikk_tri1 where id_bidang='$cekdata[id_bidang]' and tahun='$_SESSION[tahun]' and triwulan=4");
+												 $phitung4=mysqli_query($GLOBALS["___mysqli_ston"], "select * from tb_nilai_ikk_tri1,tb_ikk_bidang where tb_ikk_bidang.id_ikk=tb_nilai_ikk_tri1.id_ikk and tb_nilai_ikk_tri1.id_bidang='$cekdata[id_bidang]' and tb_nilai_ikk_tri1.tahun='$_SESSION[tahun]' and tb_nilai_ikk_tri1.triwulan=4 and tb_ikk_bidang.tri4=1");
 												 $pjumlah_record4x=mysqli_num_rows($phitung4); 
 
 												 $persentotaltri4x=($pjumlah_record4x/$jumlah_record4x)*100;
@@ -177,6 +202,7 @@ $tglusul=date('d-m-Y');
 												</tr> 
 									<?php } ?>
 								  </table>
+								  </div>
               </div> </div></div>
 			  <div class="card-body bg-default">  
 			  <div class="card bg-gradient-default" style="position: relative; left: 0px; top: 0px;">
@@ -192,6 +218,7 @@ $tglusul=date('d-m-Y');
 				 </div> </div>
                 </h3> 
 				<br> 
+				<div class=auto>
 			 <table id="examplex" class="table table-striped table-bordered" cellspacing="0" width="100%">
 									<thead>
 									  <tr style="font-size:12px"> 
@@ -336,6 +363,7 @@ $tglusul=date('d-m-Y');
 												</tr> 
 									<?php }} ?>
 								  </table>
+								  </div>
               </div> </div></div>
             </div>
 			</div>	

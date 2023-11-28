@@ -292,6 +292,10 @@ check_session();
 		  
 				if(pathFile1==""){
 				toastr.error('File Upload belum dipilih .. !');  
+				}else if(!ekstensiOk.exec(pathFile1)){ 
+				toastr.error('File Upload bukan berformat PDF .. !');   
+				}else if ($('#file1')[0].files[0].size >5000000) {
+				toastr.error('File Upload lebih dari 5 MB .. !');  	 
 				}else{ 	 
 				const file1 = $('#file1').prop('files')[0];  
 				
@@ -602,13 +606,11 @@ function cetakcapaian4()
 		} 
 		
 
-$(function(){
-		$("#close").click(function(){
+function tutup()
+{ 
 		$("#myModalsdok").modal("hide");    
 		setTimeout(function() {
 		location.reload();
-		}, 500); 
-		});
-	});
-  
+		}, 500);  
+} 
  
